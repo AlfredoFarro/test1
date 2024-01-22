@@ -1,0 +1,6 @@
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BE\bin\Release\BE.dll.config
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BE\bin\Release\BE.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BE\bin\Release\BE.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BE\obj\Release\BE.csprojResolveAssemblyReference.cache
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BE\obj\Release\BE.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BE\obj\Release\BE.pdb

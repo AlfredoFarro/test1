@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TamiLifeINMP" Class="TamizajeDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=WIN7-PC\SQLEXPRESS2012;Initial Catalog=TamiLifeINMP;Integrated Security=True" SettingsObjectName="BE.Properties.Settings" SettingsPropertyName="TamiLifeINMPConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Ubigeo" Member="Ubigeos">
+    <Type Name="Ubigeo">
+      <Column Name="idUbigeo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CodDepartamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodProvincia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodDistrito" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ParametroGeneral" Member="ParametroGenerals">
+    <Type Name="ParametroGeneral">
+      <Column Name="idParametroGeneral" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ValorTexto" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="ValorEntero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ValorReal" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Column Name="Grupo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SubGrupo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Prueba" Member="Pruebas">
+    <Type Name="Prueba">
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NombreCorto" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="Metodo" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="Prueba_Ensayo" Member="Ensayos" ThisKey="idPrueba" OtherKey="idPrueba" Type="Ensayo" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Rango" Member="Rangos">
+    <Type Name="Rango">
+      <Column Name="idRango" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Rango" Member="Rango1" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRegistro" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TipoEstablecimiento" Member="TipoEstablecimientos">
+    <Type Name="TipoEstablecimiento">
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="TipoEstablecimiento_Establecimiento" Member="Establecimientos" ThisKey="idTipoEstablecimiento" OtherKey="idTipoEstablecimiento" Type="Establecimiento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VistaResultadoDNI" Member="VistaResultadoDNIs">
+    <Type Name="VistaResultadoDNI">
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Madre" Type="System.String" DbType="NVarChar(101) NOT NULL" CanBeNull="false" />
+      <Column Name="Neonato" Type="System.String" DbType="NVarChar(101)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="HistoriaClinica" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Test" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Rango" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Metodo" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCorrelativo" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AssayLineNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="FechaMedicion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Establecimiento" Member="Vista_Establecimientos">
+    <Type Name="Vista_Establecimiento">
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Codigo" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="TipoEstablecimiento" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Direccion" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="depUbigeo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="proUbigeo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="disUbigeo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Departamento" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Provincia" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Distrito" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_MadresRepetida" Member="Vista_MadresRepetidas">
+    <Type Name="Vista_MadresRepetida">
+      <Column Name="cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Madre" Member="Madres">
+    <Type Name="Madre">
+      <Column Name="idMadre" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombres" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellidos" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Edad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Direccion" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="HistoriaClinica" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="IdMadrePrincipal" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Departamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Provincia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Distrito" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Madre_Neonato" Member="Neonatos" ThisKey="idMadre" OtherKey="idMadre" Type="Neonato" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Neonato" Member="Neonatos">
+    <Type Name="Neonato">
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idMadre" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Apellidos" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EsPrematuro" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CantMuestras" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Association Name="Neonato_Muestra" Member="Muestras" ThisKey="idNeonato" OtherKey="idNeonato" Type="Muestra" />
+      <Association Name="Madre_Neonato" Member="Madre" ThisKey="idMadre" OtherKey="idMadre" Type="Madre" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Neonato" Member="Vista_Neonatos">
+    <Type Name="Vista_Neonato">
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NombreCompleto" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Nombres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Apellidos" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idMadre" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CantMuestras" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EsPrematuro" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Usuario" Member="Vista_Usuarios">
+    <Type Name="Vista_Usuario">
+      <Column Name="NombreUsuario" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="IdEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CreadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="TipoEstablecimiento" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_MuestrasxEnvio" Member="Vista_MuestrasxEnvios">
+    <Type Name="Vista_MuestrasxEnvio">
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Apellidos" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nombres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Sexo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idMadre" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MuestraEnviada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_MuestrasxNeonato" Member="Vista_MuestrasxNeonatos">
+    <Type Name="Vista_MuestrasxNeonato">
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Resultado" Member="Vista_Resultados">
+    <Type Name="Vista_Resultado">
+      <Column Name="idEnsayo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idResultado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Instrument" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Metodo" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="Rango" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaMedicion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ensayo" Member="Ensayos">
+    <Type Name="Ensayo">
+      <Column Name="idEnsayo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaFinish" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Kitlot" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Instrument" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FechaPublicacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="PublicadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Ensayo_Resultado" Member="Resultados" ThisKey="idEnsayo" OtherKey="idEnsayo" Type="Resultado" />
+      <Association Name="Ensayo_DetalleEnsayo" Member="DetalleEnsayos" ThisKey="idEnsayo" OtherKey="idEnsayo" Type="DetalleEnsayo" />
+      <Association Name="Prueba_Ensayo" Member="Prueba" ThisKey="idPrueba" OtherKey="idPrueba" Type="Prueba" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Establecimiento" Member="Establecimientos">
+    <Type Name="Establecimiento">
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Departamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Provincia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Distrito" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Codigo" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="CodRenaes" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="DepartamentoNombre" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="ProvinciaNombre" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="DistritoNombre" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="TipoEstablecimientoNombre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UltimoCodigoEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Establecimiento_Envio" Member="Envios" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Envio" />
+      <Association Name="Establecimiento_Muestra" Member="Muestras" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Muestra" />
+      <Association Name="TipoEstablecimiento_Establecimiento" Member="TipoEstablecimiento" ThisKey="idTipoEstablecimiento" OtherKey="idTipoEstablecimiento" Type="TipoEstablecimiento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Envio" Member="Vista_Envios">
+    <Type Name="Vista_Envio">
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="NumTarjetas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="CodigoEstablecimiento" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TipoEstablecimiento" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EnvioRecibido" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Envio" Member="Envios">
+    <Type Name="Envio">
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CreadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaModificacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="ModificadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="NumTarjetas" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodigoEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Courier" Type="System.String" DbType="NVarChar(300)" CanBeNull="true" />
+      <Column Name="FechaEnvio" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CodigoRecibo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EnvioRecibido" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Envio_Muestra" Member="Muestras" ThisKey="idEnvio" OtherKey="idEnvio" Type="Muestra" />
+      <Association Name="Establecimiento_Envio" Member="Establecimiento" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Establecimiento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ResultadosArchivo" Member="Vista_ResultadosArchivos">
+    <Type Name="Vista_ResultadosArchivo">
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaMedicion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosNeonato" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="AssayLineNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ApellidosMadre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ResultadosEstablecimiento" Member="Vista_ResultadosEstablecimientos">
+    <Type Name="Vista_ResultadosEstablecimiento">
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="NombresNeonato" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosNeonato" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="FechaResultado" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="HistoriaClinica" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="idMadre" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NombresMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosMadre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="CodigoEstablecimiento" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="RecibioMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RetiradaPanelAlertas" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCorrelativoInt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Resultado" Member="Resultados">
+    <Type Name="Resultado">
+      <Column Name="idResultado" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="idEnsayo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaMedicion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Instrument" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AssayLineNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Importado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RecibioMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FechaPublicacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="PublicadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModificadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaModificacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CodigoCorrelativo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CodigoCorrelativoInt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RegCompleto" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Ensayo_Resultado" Member="Ensayo" ThisKey="idEnsayo" OtherKey="idEnsayo" Type="Ensayo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Muestra" Member="Muestras">
+    <Type Name="Muestra">
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TomadoPor" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EsTalon" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EsTransfundido" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EdadTomaDias" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="HoraUltLactancia" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="PrimeraMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaModificacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CreadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ModificadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="CodRenaes" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AfiliacionSIS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaTransfucion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="GestacionMultiple" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MuestraAceptada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MotivoRechazo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Importado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FechaDigitacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="EstablecimientoNombre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MuestraEnviada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idNeonatoOri" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idMadreOri" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SiResultados" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SiAlterado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="RecibioMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="idEnvioAnterior" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EstadoEdicion" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RetiradaPanelAlertas" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCorrelativoInt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Neonato_Muestra" Member="Neonato" ThisKey="idNeonato" OtherKey="idNeonato" Type="Neonato" IsForeignKey="true" />
+      <Association Name="Envio_Muestra" Member="Envio" ThisKey="idEnvio" OtherKey="idEnvio" Type="Envio" IsForeignKey="true" />
+      <Association Name="Establecimiento_Muestra" Member="Establecimiento" ThisKey="idEstablecimiento" OtherKey="idEstablecimiento" Type="Establecimiento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_Muestra" Member="Vista_Muestras">
+    <Type Name="Vista_Muestra">
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idMadre" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TipoEstablecimiento" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="Codigo" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="TomadoPor" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MuestraEnviada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FechaDigitacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="MuestraAceptada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MotivoRechazo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NombresMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosMadre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ApellidosNeonato" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NombresNeonato" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="RecibioMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idEnvioAnterior" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EstadoEdicion" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RetiradaPanelAlertas" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCorrelativoInt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_BuscarResultado" Member="Vista_BuscarResultados">
+    <Type Name="Vista_BuscarResultado">
+      <Column Name="idResultado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="idEnsayo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Instrument" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NombreCorto" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="AssayLineNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaMedicion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Importado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CodigoCorrelativoInt" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Rango" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_MuestraResultados" Member="Vista_MuestraResultados">
+    <Type Name="Vista_MuestraResultado">
+      <Column Name="idResultado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="FechaMedicion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="FechaPublicacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="PublicadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Expr1" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TomadoPor" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Expr2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="HoraUltLactancia" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="PrimeraMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MuestraAceptada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MotivoRechazo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaDigitacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="EstablecimientoNombre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RecibioMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NombrePrueba" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Rango" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ResultadosMuestra" Member="Vista_ResultadosMuestras">
+    <Type Name="Vista_ResultadosMuestra">
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="FechaResultado" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Sexo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="idMadre" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NombresMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="CodigoEstablecimiento" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="idTipoEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EsTalon" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EsTransfundido" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MuestraAceptada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="idEnsayo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idResultado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AssayLineNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Nombres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Apellidos" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Rango" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ExportarMuestrasINMP" Member="Vista_ExportarMuestrasINMPs">
+    <Type Name="Vista_ExportarMuestrasINMP">
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NombreMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Madre" Type="System.String" DbType="NVarChar(101)" CanBeNull="true" />
+      <Column Name="Neonato" Type="System.String" DbType="NVarChar(101)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="HCLinica" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CodigoEstablecimiento" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="TipoEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Departamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Provincia" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Distrito" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Expr1" Type="System.Decimal" DbType="Decimal(15,8)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="EsPrematuro" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="EsTransfundido" Type="System.String" DbType="VarChar(1) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoCorrelativo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="NumRepeticion" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRegistro" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TipoMigracion" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_BuscarPaciente" Member="Vista_BuscarPacientes">
+    <Type Name="Vista_BuscarPaciente">
+      <Column Name="idNeonato" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="idEstablecimiento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="NombresNeonato" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosNeonato" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="HistoriaClinica" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="idMadre" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NombresMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosMadre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoInternoLab" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="idEnvio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MuestraEnviada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FechaDigitacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="ModificadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaModificacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="RecibioMuestra" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MuestraAceptada" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MotivoRechazo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Importado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Usuario" Member="Usuarios">
+    <Type Name="Usuario">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NombreUsuario" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="IdEstablecimiento" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FechaCreacion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="CreadoPor" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Pass" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Role" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Vista_ResultadosGSP" Member="Vista_ResultadosGSPs">
+    <Type Name="Vista_ResultadosGSP">
+      <Column Name="Pocillo" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NombresMadre" Type="System.String" DbType="NVarChar(101)" CanBeNull="true" />
+      <Column Name="Establecimiento" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SampleUsedForAnswer" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="SampleIX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaToma" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="EdadGestacional" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Peso" Type="System.Decimal" DbType="Decimal(10,3)" CanBeNull="true" />
+      <Column Name="Talla" Type="System.Decimal" DbType="Decimal(10,2)" CanBeNull="true" />
+      <Column Name="NumMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssayLineNumber" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="idResultado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Prueba" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="idEnsayo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sexo" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="EsPrematuro" Type="System.String" DbType="VarChar(2)" CanBeNull="true" />
+      <Column Name="CodigoCorrelativo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Notas" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="Telefono1" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Telefono2" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="NombreMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ApellidosMadre" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Neonato" Type="System.String" DbType="NVarChar(101)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CodigoEstablecimiento" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="FechaRecepcion" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="FechaResultado" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Rango" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="Importado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="EstadoRango" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idMuestra" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="idDetalleEnsayo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Nombres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Apellidos" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SampleRole" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DetalleEnsayo" Member="DetalleEnsayos">
+    <Type Name="DetalleEnsayo">
+      <Column Name="idDetalleEnsayo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idEnsayo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestRunDefId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SampleCodigo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SampleIX" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SampleRole" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CodeDefId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SampleUsedForAnswer" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Fila" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Columna" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Pocillo" Type="System.String" DbType="NVarChar(3)" CanBeNull="true" />
+      <Column Name="NumPlaca" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="Ensayo_DetalleEnsayo" Member="Ensayo" ThisKey="idEnsayo" OtherKey="idEnsayo" Type="Ensayo" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.spResultadosHistoricosNeonato" Method="spResultadosHistoricosNeonato">
+    <Parameter Name="idNeonato" Type="System.Int32" DbType="Int" />
+    <Parameter Name="testName" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="spResultadosHistoricosNeonatoResult">
+      <Column Name="idResultado" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoMuestra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ConcTexto" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ConcValor" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ResultCode" Type="System.String" DbType="NVarChar(32)" CanBeNull="true" />
+      <Column Name="Estado" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AssayRunID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FechaMedicion" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="Unidad" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Publicado" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="rdcDeterminationLevel" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

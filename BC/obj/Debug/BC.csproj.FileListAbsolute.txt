@@ -1,0 +1,81 @@
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BC.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BC.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BE.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\DA.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BE.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\DA.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BC.dll
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BC.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BE.dll
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\DA.dll
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BE.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\DA.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.dll
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BC.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BC.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BE.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\DA.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\BE.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\bin\Debug\DA.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\BC\obj\Debug\BC.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\bin\Debug\BC.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\bin\Debug\BC.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\bin\Debug\BE.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\bin\Debug\DA.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\bin\Debug\BE.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\bin\Debug\DA.pdb
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\obj\Debug\BC.dll
+C:\Users\Servicio Tecnico.CIANSA\Documents\Visual Studio 2013\Projects\TAMIZAJE_CIANSA\BC\obj\Debug\BC.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\bin\Debug\BC.dll
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\bin\Debug\BC.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\bin\Debug\BE.dll
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\bin\Debug\DA.dll
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\bin\Debug\BE.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\bin\Debug\DA.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\obj\Debug\BC.dll
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\obj\Debug\BC.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BC.dll
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BC.pdb
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BE.dll
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\DA.dll
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BE.pdb
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\DA.pdb
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\obj\Debug\BC.dll
+C:\Users\César\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\obj\Debug\BC.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BC.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BC.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BE.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\DA.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\BE.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\bin\Debug\DA.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\obj\Debug\BC.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\BC\obj\Debug\BC.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BC.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BC.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BE.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\DA.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BE.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\DA.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BC.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BC.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BE.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\DA.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\BE.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin\Debug\DA.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.dll
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.pdb

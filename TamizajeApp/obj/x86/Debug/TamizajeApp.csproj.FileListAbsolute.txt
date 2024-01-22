@@ -1,0 +1,91 @@
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\LectorCSV_beta1.exe.config
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\LectorCSV_beta1.exe
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\LectorCSV_beta1.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BC.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BE.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\DA.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BC.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BE.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\DA.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.frmAdministrarEstablecimientos.resources
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.frmAprobarResultados.resources
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.frmLogin.resources
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Principal.resources
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Properties.Resources.resources
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Resultados.frmAprobarEnsayos.resources
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Resultados.frmImportarResultados.resources
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\RdlCompile.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\RdlCompile.compiled
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\LectorCSV_beta1.exe
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\LectorCSV_beta1.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\LectorCSV_beta1.exe.config
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\LectorCSV_beta1.exe
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\LectorCSV_beta1.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BC.dll
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BE.dll
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\DA.dll
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BC.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\BE.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\bin\Debug\DA.pdb
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.csprojResolveAssemblyReference.cache
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.frmAdministrarEstablecimientos.resources
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.frmAprobarResultados.resources
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.frmLogin.resources
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Principal.resources
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Properties.Resources.resources
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Resultados.frmAprobarEnsayos.resources
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.Resultados.frmImportarResultados.resources
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\TamizajeApp.csproj.GenerateResource.Cache
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\RdlCompile.cache
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\RdlCompile.compiled
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\LectorCSV_beta1.exe
+C:\Users\E\Documents\Visual Studio 2013\Projects\INMP_Tamizaje_Manager_v1.0\LectorCSV_beta1\obj\x86\Debug\LectorCSV_beta1.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\TamizajeApp.exe.config
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\TamizajeApp.exe
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\TamizajeApp.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\BC.dll
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\BE.dll
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\DA.dll
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\BC.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\BE.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\bin\Debug\DA.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Login.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Resultados.BuscarResultado.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.ImportarResultados.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Main.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Principal.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Properties.Resources.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Resultados.PublicarResultados.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Resultados.RevisarPublicaciones.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.ValidarResultados.resources
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.exe
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.pdb
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.csprojResolveAssemblyReference.cache
+C:\Users\cesar\Documents\RepositoriosGIT\TAMIZAJE_CIANSA\TamizajeApp\obj\x86\Debug\TamizajeApp.csproj.GenerateResource.Cache
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\TamizajeApp.exe.config
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\TamizajeApp.exe
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\TamizajeApp.pdb
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\BC.dll
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\BE.dll
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\DA.dll
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\BC.pdb
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\BE.pdb
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\DA.pdb
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Login.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Resultados.BuscarResultado.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.ImportarResultados.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Main.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Principal.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Properties.Resources.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Resultados.PublicarResultados.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.Resultados.RevisarPublicaciones.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.ValidarResultados.resources
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.exe
+C:\Users\cesar\documents\visual studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\TamizajeApp.pdb
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\TamizajeApp\bin\Debug\DbfLibrary.dll
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeSA\TamizajeApp\obj\x86\Debug\GenerateResource.write.1.tlog

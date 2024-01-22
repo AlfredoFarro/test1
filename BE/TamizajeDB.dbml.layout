@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 23, 23.75" name="TamizajeDB">
+  <DataContextMoniker Name="/TamizajeDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9317ea5e-84f6-48c4-bec3-bbcb958f9c18" absoluteBounds="8.625, 8.25, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Ubigeo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="28751030-ba56-4a3b-8906-f7dbbaf577b5" absoluteBounds="8.64, 8.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94e24ee3-b136-4617-8f31-0b60c4210650" absoluteBounds="13.625, 14.5, 2, 2.3478011067708326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/ParametroGeneral" />
+      <nestedChildShapes>
+        <elementListCompartment Id="557c6ba5-f449-4326-bed1-25da143725fe" absoluteBounds="13.64, 14.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dbe2ee42-d429-433b-9431-cc01880d2a52" absoluteBounds="0.75, 10.875, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Prueba" />
+      <nestedChildShapes>
+        <elementListCompartment Id="511777a6-3eaa-485c-bd65-42dd56270d95" absoluteBounds="0.765, 11.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="230cde87-d367-4d53-af3f-e4230821181f" absoluteBounds="8.625, 10.375, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Rango" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d812e70-91b0-45e6-821b-01129e19b1d1" absoluteBounds="8.64, 10.835, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ec114827-0241-4707-8a40-7a8a7d6c50e1" absoluteBounds="1, 5.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/TamizajeDBDataContext/TipoEstablecimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f37db654-f891-4cb4-8ffc-a98a024a8be2" absoluteBounds="1.0150000000000001, 5.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="991bcb31-7828-4da1-b668-933bbb1aaec3" absoluteBounds="11.125, 8.5, 2, 4.8477197265624987">
+      <DataClassMoniker Name="/TamizajeDBDataContext/VistaResultadoDNI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1978495c-f51e-4549-a9c3-5dc7d6342b36" absoluteBounds="11.14, 8.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0ef9fa9b-5446-4644-9d73-0b9b511b5ca4" absoluteBounds="11.25, 16.375, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_Establecimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85103c09-a6d1-47d5-8b06-707ea6883769" absoluteBounds="11.265, 16.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ae7ad27-4128-4da1-8a68-091fc83c33cb" absoluteBounds="3.625, 9.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_MadresRepetida" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ffbdf853-b53c-4c8a-947c-343e73ccd1ff" absoluteBounds="3.64, 9.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9a2dd8b2-451c-4b73-9145-9a4c2b1b30b5" absoluteBounds="1, 7, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Madre" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fa4d4795-9eef-463c-bbf1-7617b65b020c" absoluteBounds="1.0150000000000001, 7.46, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="222a1c3f-9ef1-45b8-8bab-164e436dcf0f" absoluteBounds="3.625, 5.5, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Neonato" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3565df6e-442d-4892-ad84-589da9eae53e" absoluteBounds="3.6399999999999997, 5.96, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 7.90465413411458); (3.625 : 7.90465413411458)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Madre/Madre_Neonato" />
+      <nodes>
+        <classShapeMoniker Id="9a2dd8b2-451c-4b73-9145-9a4c2b1b30b5" />
+        <classShapeMoniker Id="222a1c3f-9ef1-45b8-8bab-164e436dcf0f" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="252f5050-569f-436d-9494-0ce903a365bc" absoluteBounds="5.875, 16.75, 2, 3.1170068359375">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_Neonato" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb8f3721-c9fd-4ddb-833b-45e0c8bec101" absoluteBounds="5.8900000000000006, 17.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9fe404a0-e97a-4375-b13f-68a64e76ef64" absoluteBounds="13.625, 17.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3fad7ae6-e99c-4c78-b596-f68847034c6e" absoluteBounds="13.64, 17.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fb97e7e3-75e4-4b60-a141-9140949675d2" absoluteBounds="15.875, 14.375, 2, 3.5016097005208326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_MuestrasxEnvio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3206689f-c761-4ce5-acf6-871f221215f1" absoluteBounds="15.89, 14.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="59ce7233-7988-4de6-bfe4-cc4be4bb43a0" absoluteBounds="0.75, 13.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_MuestrasxNeonato" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38889296-8544-4f1a-86b8-da1c0b116691" absoluteBounds="0.76500000000000012, 13.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="039b855a-ba61-4bdf-a54b-0c3ed64b3449" absoluteBounds="13.625, 9.75, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_Resultado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="427e473d-de96-4c1e-b37c-a7cec60beb44" absoluteBounds="13.64, 10.21, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fed24636-2a08-45a0-aad9-ba8512008668" absoluteBounds="3.5, 10.75, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Ensayo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba8503a2-fbbb-48d2-8aa3-4609d4043cf0" absoluteBounds="3.5149999999999997, 11.21, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 11.8565991210937); (3.5 : 11.8565991210937)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Prueba/Prueba_Ensayo" />
+      <nodes>
+        <classShapeMoniker Id="dbe2ee42-d429-433b-9431-cc01880d2a52" />
+        <classShapeMoniker Id="fed24636-2a08-45a0-aad9-ba8512008668" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f09f0dfa-c2e6-4f37-9939-aeb675bbe8f4" absoluteBounds="3.5, 0.5, 2, 4.0785139973958326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Establecimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9c2eaff-660b-440d-b5e9-be3d96c84919" absoluteBounds="3.5149999999999997, 0.96, 1.9700000000000002, 3.518513997395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3 : 5.125); (3.5 : 4.57851399739583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TamizajeDBDataContext/TipoEstablecimiento/TipoEstablecimiento_Establecimiento" />
+      <nodes>
+        <classShapeMoniker Id="ec114827-0241-4707-8a40-7a8a7d6c50e1" />
+        <classShapeMoniker Id="f09f0dfa-c2e6-4f37-9939-aeb675bbe8f4" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4d0836ae-aefb-4de9-bb46-a98ab34022fc" absoluteBounds="0.75, 16, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_Envio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ad2b06a-8b96-4f60-9b98-9ad3f0c83cd5" absoluteBounds="0.76499999999999968, 16.46, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ff4d2ab4-5f33-4080-acec-5f05dadeceeb" absoluteBounds="0.875, 0.5, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Envio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1df6a1c-6069-4ff8-b58d-14c945b27723" absoluteBounds="0.89000000000000012, 0.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.5 : 2.34695556640625); (2.875 : 2.34695556640625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Establecimiento/Establecimiento_Envio" />
+      <nodes>
+        <classShapeMoniker Id="f09f0dfa-c2e6-4f37-9939-aeb675bbe8f4" />
+        <classShapeMoniker Id="ff4d2ab4-5f33-4080-acec-5f05dadeceeb" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f93add01-ae79-4763-aa06-7308d0fe17d1" absoluteBounds="15.875, 0.5, 2, 4.8477197265625">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_ResultadosArchivo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="91018d79-8d5d-43d8-b894-a44515d67e1c" absoluteBounds="15.89, 0.96, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f0d5f355-ea2e-4709-a87e-8144af22e99c" absoluteBounds="8.625, 12.375, 2, 7.5399397786458326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_ResultadosEstablecimiento" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d22fb51-a9ef-46ed-827a-eb7a7979560d" absoluteBounds="8.64, 12.835, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6d37a6b0-6c2b-42df-978f-2087ddd0cc35" absoluteBounds="5.875, 10.75, 2, 5.6169254557291657">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Resultado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2d01f079-a6bc-4ff9-b7aa-f10478a938f1" absoluteBounds="5.89, 11.21, 1.9700000000000002, 5.0569254557291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 11.28125); (5.875 : 11.28125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Ensayo/Ensayo_Resultado" />
+      <nodes>
+        <classShapeMoniker Id="fed24636-2a08-45a0-aad9-ba8512008668" />
+        <classShapeMoniker Id="6d37a6b0-6c2b-42df-978f-2087ddd0cc35" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ab384f7f-c388-4121-824d-6a887cb4a842" absoluteBounds="6.25, 0.5, 2, 8.8860498046875">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Muestra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="abf12efb-5ac6-4493-a867-55642c473c4c" absoluteBounds="6.265, 0.96, 1.9700000000000002, 8.3260498046875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.625 : 6.65625); (6.25 : 6.65625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Neonato/Neonato_Muestra" />
+      <nodes>
+        <classShapeMoniker Id="222a1c3f-9ef1-45b8-8bab-164e436dcf0f" />
+        <classShapeMoniker Id="ab384f7f-c388-4121-824d-6a887cb4a842" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(0.90625 : 4.1939111328125); (0.90625 : 4.85175699869792); (3.16666666666667 : 4.85175699869792 : JumpStart); (3.33333333333333 : 4.85175699869792 : JumpEnd); (6.25 : 4.85175699869792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Envio/Envio_Muestra" />
+      <nodes>
+        <classShapeMoniker Id="ff4d2ab4-5f33-4080-acec-5f05dadeceeb" />
+        <classShapeMoniker Id="ab384f7f-c388-4121-824d-6a887cb4a842" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.57050949869792); (6.25 : 2.57050949869792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Establecimiento/Establecimiento_Muestra" />
+      <nodes>
+        <classShapeMoniker Id="f09f0dfa-c2e6-4f37-9939-aeb675bbe8f4" />
+        <classShapeMoniker Id="ab384f7f-c388-4121-824d-6a887cb4a842" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="910dea31-193b-4714-b8a3-b25fb076a170" absoluteBounds="13.625, 0.5, 2, 8.3091455078125">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_Muestra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7a09edcc-ce24-4cc8-953e-643c8db718cc" absoluteBounds="13.64, 0.96, 1.9700000000000002, 7.7491455078125009" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bc278953-1c8e-4723-bef7-68683d4d2ef9" absoluteBounds="3.375, 14.125, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_BuscarResultado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec635d73-9cd4-4457-a8d5-4466c64597e0" absoluteBounds="3.3900000000000006, 14.585, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ac5cdf15-a36a-4b34-bcff-4d94ceea96b5" absoluteBounds="8.75, 0.5, 2, 7.5399397786458326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_MuestraResultado" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9794b6c-1a2d-447e-b9fa-12f9b150e12a" absoluteBounds="8.765, 0.96, 1.9700000000000002, 6.979939778645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="21166c87-e980-44b9-899d-a1ee4be2d2dc" absoluteBounds="16, 5.5, 2, 8.5014469401041666">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_ResultadosMuestra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="15938853-e8cf-4c81-826d-ea7d1b621e1e" absoluteBounds="16.015, 5.96, 1.9700000000000002, 7.941446940104167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7e6db44d-71ca-4907-aaf5-7e9f653eae40" absoluteBounds="20.75, 0.5, 2, 6.5784326171875">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_ExportarMuestrasINMP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c32e5332-34a9-465f-978f-f3a69a317fa1" absoluteBounds="20.765, 0.96, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6af6276e-841b-4a26-87bf-c57051ca47cc" absoluteBounds="11.25, 0.5, 2, 7.7322412109375005">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_BuscarPaciente" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d6c7fbf5-c633-472a-a0f2-d4d9e528a44b" absoluteBounds="11.265, 0.96, 1.9700000000000002, 7.1722412109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32fe080b-c463-40a7-b1ee-9578cbdf5172" absoluteBounds="11.25, 13.75, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a7651b13-22fa-4d00-95d0-128a4e218796" absoluteBounds="11.265, 14.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5a2d4b68-5d5f-481c-82ae-7b06315b869b" absoluteBounds="18.5, 0.5, 2, 9.2706526692708326">
+      <DataClassMoniker Name="/TamizajeDBDataContext/Vista_ResultadosGSP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="94ddcb29-2d60-4b15-8e66-c862e80af9a6" absoluteBounds="18.515, 0.96, 1.9700000000000002, 8.7106526692708321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e8ca9709-814d-4ddd-9e1b-6233e1c49c3c" absoluteBounds="0.75, 19.625, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/TamizajeDBDataContext/DetalleEnsayo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="53df7669-666d-4ef4-8ffc-38d9770c283e" absoluteBounds="0.76500000000000012, 20.085, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.46875 : 13.6747054036458); (5.46875 : 21.5681062825521); (2.75 : 21.5681062825521)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/TamizajeDBDataContext/Ensayo/Ensayo_DetalleEnsayo" />
+      <nodes>
+        <classShapeMoniker Id="fed24636-2a08-45a0-aad9-ba8512008668" />
+        <classShapeMoniker Id="e8ca9709-814d-4ddd-9e1b-6233e1c49c3c" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home">
+    <siteMapNode title="Inicio" description="Inicio" url="~/Default.aspx"/>
+    <siteMapNode title="Resultados" description="Resultados">
+      <siteMapNode url="~/Resultados/BuscarResultado.aspx" title="Buscar Resultado" description="Buscar Resultado" />
+      <siteMapNode url="~/Resultados/ResultadosEstablecimiento.aspx" title="Resultados por Establecimiento" description="Resultados por Establecimiento" />
+
+    </siteMapNode>
+    <siteMapNode title="Muestras" description="Muestras">
+      <siteMapNode url="~/Muestras/AdministrarMuestras.aspx" title="Administrar Muestras" description="Administrar Muestras" />
+      <siteMapNode url="~/Muestras/RegistrarMuestra.aspx" title="Registrar Muestras" description="Registrar Muestras" />
+
+    </siteMapNode>
+    <siteMapNode title="Establecimientos" description="Digitación">
+      <siteMapNode url="~/Establecimientos/AdministrarEstablecimientos.aspx" title="Administrar Establecimientos" description="Administrar Establecimientos" />
+      <siteMapNode url="~/Establecimientos/RegistrarEstablecimiento.aspx" title="Registrar Establecimiento" description="Registrar Establecimiento" />
+      <!--<siteMapNode url="~/Establecimientos/AdministrarRechazadasAlteradas.aspx" title="Administrar Muestras Rechazadas y Alteradas" description="Administrar Muestras Rechazadas y Alteradas" />-->
+    </siteMapNode>
+    <!--<siteMapNode title="Digitación" description="Digitación" >
+    
+      <siteMapNode url="~/Digitacion/AdministrarDigitacion.aspx" title="Administrar Digitación" description="Adminitrar Digitación" />
+      --><!--<siteMapNode url="~/Digitacion/AdministrarEnvios.aspx" title="Administrar Envios" description="Administrar Envios" />
+      <siteMapNode url="~/Digitacion/GenerarListaEnvio.aspx" title="Generar Lista de Envio" description="Generar Lista de Envio" />
+      <siteMapNode url="~/Digitacion/RevisarEnvios.aspx" title="Revisar Envios" description="Reviar Envios" />--><!--
+    </siteMapNode>-->
+    <siteMapNode title="Publicación" description="Publicación">
+      <siteMapNode url="~/Publicacion/AdministrarPublicacion.aspx" title="Administrar Publicación" description="Administrar Publicación" />
+      <siteMapNode url="~/Publicacion/AdministrarMuestrasExportadas.aspx" title="Administrar Muestras Exportadas" description="Administrar Muestras Exportadas" />
+      <siteMapNode url="~/Publicacion/AdministrarResultadosPublicados.aspx" title="Administrar Resultados Publicados" description="Administrar Resultados Publicados" />
+      
+    </siteMapNode>
+    
+    <siteMapNode title="Usuario" description="Usuario">
+      <siteMapNode url="~/Account/AdministrarUsuarios.aspx" title="Administrar Usuarios" description="Administrar Usuarios" />
+      <siteMapNode url="~/Account/RegistrarUsuario.aspx" title="Registrar Usuario" description="Registrar Usuario" />
+
+
+    </siteMapNode>
+    <siteMapNode title="Contacto" description="Contacto" url="~/About.aspx"/>
+  </siteMapNode>
+</siteMap>
+

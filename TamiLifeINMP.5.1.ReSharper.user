@@ -1,0 +1,348 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarPublicacion.aspx" caret="8998" fromTop="7" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarPublicacion.aspx.cs" caret="2558" fromTop="18" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarMuestrasExportadas.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarMuestrasExportadas.aspx.cs" caret="5477" fromTop="24" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:MuestraBC.cs" caret="7802" fromTop="11" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:PublicarResultados.aspx" caret="6144" fromTop="23" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Web.config" caret="1263" fromTop="13" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:PublicarResultados.aspx.cs" caret="6600" fromTop="8" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:PublicarResultadosINMP.aspx.cs" caret="7073" fromTop="20" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="11793" fromTop="20" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:ResultadoDA.cs" caret="16913" fromTop="60" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarPublicacionINMP.aspx" caret="723" fromTop="14" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarPublicacionINMP.aspx.cs" caret="2064" fromTop="12" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:RegistrarMuestra.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Site.Master" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:WebFormPrueba.aspx" caret="665" fromTop="11" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:WebFormPrueba.aspx.cs" caret="417" fromTop="18" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:MuestraDA.cs" caret="28284" fromTop="521" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Site.Master.designer.cs" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Styles/f:Site.css" caret="606" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:ResultadosEstablecimiento.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Site.Master.cs" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:BuscarResultado.aspx.designer.cs" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:BuscarResultado.aspx.cs" caret="9387" fromTop="226" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="3166" fromTop="108" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:UsuarioDA.cs" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Reportes.cs" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:BuscarResultado.aspx" caret="7106" fromTop="46" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Account/f:AdministrarUsuarios.aspx" caret="1274" fromTop="11" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Account/f:Login.aspx" caret="4076" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:ResultadoDA.cs" caret="27775" fromTop="13" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="4602" fromTop="35" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="3209" fromTop="11" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="3910" fromTop="23" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="989" fromTop="22" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Web.config" caret="1263" fromTop="13" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="354" fromTop="13" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="3362" fromTop="13" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:AccesoDB.cs" caret="4104" fromTop="19" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:ResultadoDA.cs" caret="27894" fromTop="29" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:ResultadoDA.cs" caret="26075" fromTop="2" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="13416" fromTop="11" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="19003" fromTop="35" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="23631" fromTop="19" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="17682" fromTop="31" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="16076" fromTop="4" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="18897" fromTop="18" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="18944" fromTop="33" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:ResultadoDA.cs" caret="26264" fromTop="9" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="16375" fromTop="17" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:ResultadoBC.cs" caret="16805" fromTop="13" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarPublicacionINMP.aspx.cs" caret="2266" fromTop="22" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarPublicacionINMP.aspx.cs" caret="2064" fromTop="12" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Site.Master" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:WebFormPrueba.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:WebFormPrueba.aspx.cs" caret="438" fromTop="17" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:WebFormPrueba.aspx" caret="665" fromTop="11" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:MuestraDA.cs" caret="28284" fromTop="563" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Account/f:Login.aspx" caret="3883" fromTop="10" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Account/f:Login.aspx" caret="4076" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="OrderBy`2" priority="2" />
+      <Item value="ToList`1" priority="1" />
+      <Item value="First`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="e" priority="5" />
+      <Item value="_db" priority="0" />
+      <Item value="establecimiento" priority="0" />
+      <Item value="pesoNeo" priority="0" />
+      <Item value="var" priority="2" />
+      <Item value="ensayoBC" priority="0" />
+      <Item value="int" priority="10" />
+      <Item value="public" priority="6" />
+      <Item value="Vista_ResultadosGSP`0" priority="5" />
+      <Item value="db" priority="6" />
+      <Item value="r" priority="4" />
+      <Item value="AssayRunId" priority="1" />
+      <Item value="return" priority="11" />
+      <Item value="da" priority="6" />
+      <Item value="ResultadoBC`0" priority="2" />
+      <Item value="resultadoBC" priority="2" />
+      <Item value="Ensayo`0" priority="0" />
+      <Item value="VistaResultadoDNI`0" priority="0" />
+      <Item value="listaResultados" priority="0" />
+      <Item value="resultado" priority="3" />
+      <Item value="string" priority="30" />
+      <Item value="estado" priority="0" />
+      <Item value="ensayo" priority="4" />
+      <Item value="_arial8BoldRed" priority="0" />
+      <Item value="lblKitLot" priority="0" />
+      <Item value="lblEquipo" priority="0" />
+      <Item value="if" priority="7" />
+      <Item value="Publicado" priority="0" />
+      <Item value="btnPublicar" priority="0" />
+      <Item value="else" priority="5" />
+      <Item value="chkAll" priority="0" />
+      <Item value="true" priority="5" />
+      <Item value="false" priority="6" />
+      <Item value="List" priority="1" />
+      <Item value="void" priority="2" />
+      <Item value="dt" priority="1" />
+      <Item value="UsuarioBC`0" priority="0" />
+      <Item value="Usuario`0" priority="0" />
+      <Item value="u" priority="0" />
+      <Item value="ddlDigitador" priority="2" />
+      <Item value="usuarioBC" priority="0" />
+      <Item value="idEstablecimiento" priority="0" />
+      <Item value="p" priority="0" />
+      <Item value="exportada" priority="0" />
+      <Item value="digitador" priority="1" />
+      <Item value="PublicarResultados`0" priority="0" />
+      <Item value="publi" priority="0" />
+      <Item value="hdnCorrelativoAnterior" priority="0" />
+      <Item value="txtCodigoMuestra" priority="1" />
+      <Item value="publicado" priority="17" />
+      <Item value="peso" priority="1" />
+      <Item value="bool" priority="2" />
+      <Item value="conc" priority="3" />
+      <Item value="analito" priority="3" />
+      <Item value="numEnsayo" priority="3" />
+      <Item value="DetalleEnsayo`0" priority="3" />
+      <Item value="d" priority="1" />
+      <Item value="idDetalleEnsayo" priority="1" />
+      <Item value="Resultado`0" priority="2" />
+      <Item value="idResultado" priority="0" />
+      <Item value="detalle" priority="0" />
+      <Item value="try" priority="2" />
+      <Item value="DataTable`0" priority="1" />
+      <Item value="codigoCorrelativo" priority="3" />
+      <Item value="publicadoINMP" priority="0" />
+      <Item value="lblFiltrar" priority="0" />
+      <Item value="ddlTipoResultados" priority="0" />
+      <Item value="btnActualizar" priority="0" />
+      <Item value="lblPrueba" priority="0" />
+      <Item value="lblCodigoCorrelativo" priority="0" />
+      <Item value="btnFiltrar" priority="0" />
+      <Item value="txtCodigoCorrelativo" priority="0" />
+      <Item value="codigo" priority="1" />
+      <Item value="List&lt;Vista_ResultadosGSP&gt;" priority="0" />
+      <Item value="ddlEstadoPublicado" priority="0" />
+      <Item value="lblPublicado" priority="0" />
+      <Item value="estadoPublicado" priority="0" />
+      <Item value="resultadosEnviarNew" priority="0" />
+      <Item value="null" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.TipoEstablecimiento">
+      <Item value="Nombre" priority="1" />
+      <Item value="Estado" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.AccesoDB">
+      <Item value="dc" priority="6" />
+      <Item value="QueryDataTable`0" priority="1" />
+      <Item value="ExecuteNoQueryINMP`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.TamizajeDBDataContext">
+      <Item value="TipoEstablecimientos" priority="0" />
+      <Item value="Vista_ResultadosGSPs" priority="1" />
+      <Item value="Usuarios" priority="0" />
+      <Item value="Vista_BuscarPacientes" priority="0" />
+      <Item value="DetalleEnsayos" priority="2" />
+      <Item value="Resultados" priority="0" />
+      <Item value="SubmitChanges`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="Where`1" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="ToList`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Establecimiento">
+      <Item value="Distrito" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.EnsayoBC">
+      <Item value="ObtenerEnsayoRunId`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_ResultadosGSP">
+      <Item value="AssayRunID" priority="1" />
+      <Item value="SampleUsedForAnswer" priority="0" />
+      <Item value="SampleIX" priority="0" />
+      <Item value="Pocillo" priority="0" />
+      <Item value="NombresMadre" priority="1" />
+      <Item value="CodigoMuestra" priority="1" />
+      <Item value="Establecimiento" priority="0" />
+      <Item value="ConcTexto" priority="0" />
+      <Item value="idEnsayo" priority="1" />
+      <Item value="ApellidosMadre" priority="0" />
+      <Item value="Apellidos" priority="0" />
+      <Item value="Publicado" priority="1" />
+      <Item value="SampleRole" priority="0" />
+      <Item value="Prueba" priority="0" />
+      <Item value="Unidad" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.ResultadoDA">
+      <Item value="ObtenerListaResultadosGSP`0" priority="0" />
+      <Item value="ActualizarDetalleEnsayo`0" priority="0" />
+      <Item value="RegistrarResultadosINMPNew`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.ResultadoBC">
+      <Item value="ObtenerListaResultadosGSP`0" priority="0" />
+      <Item value="ActualizarPublicacion`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iTextSharp.text.Element">
+      <Item value="ALIGN_CENTER" priority="1" />
+      <Item value="ALIGN_MIDDLE" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Ensayo">
+      <Item value="FechaFinish" priority="0" />
+      <Item value="AssayRunID" priority="2" />
+      <Item value="Kitlot" priority="0" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Publicado" priority="0" />
+      <Item value="idEnsayo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowEventArgs">
+      <Item value="Row" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="Cells" priority="1" />
+      <Item value="Font" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="TemplateControl" priority="0" />
+      <Item value="Text" priority="1" />
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="Parse`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Enabled" priority="0" />
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_ResultadosMuestra">
+      <Item value="AssayRunID" priority="0" />
+      <Item value="CodigoMuestra" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="CompareTo`0" priority="5" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Muestra">
+      <Item value="Importado" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Usuario">
+      <Item value="Role" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.UsuarioDA">
+      <Item value="ObtenerUsuariosDigitadores`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="DataSource" priority="0" />
+      <Item value="SelectedValue" priority="1" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.UsuarioBC">
+      <Item value="ObtenerUsuariosDigitadores`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_BuscarPaciente">
+      <Item value="Importado" priority="0" />
+      <Item value="CreadoPor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HiddenField">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FontInfo">
+      <Item value="Bold" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="1" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.DetalleEnsayo">
+      <Item value="idDetalleEnsayo" priority="1" />
+      <Item value="Publicado" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Resultado">
+      <Item value="ResultCode" priority="0" />
+      <Item value="idResultado" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="RowChanged" priority="0" />
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="1" />
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TamiLifeSA</RootNamespace>
+    <AssemblyName>TamiLifeSA</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>lib\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\AdministrarUsuarios.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegistrarUsuario.aspx" />
+    <Content Include="Digitacion\AdministrarDigitacion.aspx" />
+    <Content Include="Digitacion\AdministrarEnvios.aspx" />
+    <Content Include="Digitacion\EditarEnvio.aspx" />
+    <Content Include="Digitacion\GenerarListaEnvio.aspx" />
+    <Content Include="Digitacion\RevisarEnvios.aspx" />
+    <Content Include="Establecimientos\AdministrarEstablecimientos.aspx" />
+    <Content Include="Establecimientos\AdministrarRechazadasAlteradas.aspx" />
+    <Content Include="Establecimientos\RegistrarEstablecimiento.aspx" />
+    <Content Include="Images\001_05_delete.png" />
+    <Content Include="Images\001_38.gif" />
+    <Content Include="Images\001_44_calendar.png" />
+    <Content Include="Images\03.jpg" />
+    <Content Include="Images\16008.jpg" />
+    <Content Include="Images\Agregar.png" />
+    <Content Include="Images\agregar1.png" />
+    <Content Include="Images\boxdownload32.png" />
+    <Content Include="Images\Buscar.png" />
+    <Content Include="Images\buscar1.png" />
+    <Content Include="Images\cabeza17.jpg" />
+    <Content Include="Images\calendar.png" />
+    <Content Include="Images\calendar_2.png" />
+    <Content Include="Images\cambioPass.png" />
+    <Content Include="Images\cambioPass2.png" />
+    <Content Include="Images\cambioPass3.png" />
+    <Content Include="Images\Cancelar.png" />
+    <Content Include="Images\candado.png" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\compartir_bg.jpg" />
+    <Content Include="Images\Contacto.png" />
+    <Content Include="Images\delete.png" />
+    <Content Include="Images\DownloadPDF.png" />
+    <Content Include="Images\Editar %282%29.png" />
+    <Content Include="Images\Editar.png" />
+    <Content Include="Images\essalud_28112016.jpg" />
+    <Content Include="Images\FirmaDr.png" />
+    <Content Include="Images\firmaDr2.jpg" />
+    <Content Include="Images\firma_dra.jpg" />
+    <Content Include="Images\gnome-logout.png" />
+    <Content Include="Images\Gnome-Stock-Person-64.png" />
+    <Content Include="Images\gtk-edit.png" />
+    <Content Include="Images\Guardar.png" />
+    <Content Include="Images\icono_pagina_principal.gif" />
+    <Content Include="Images\Imprimir.png" />
+    <Content Include="Images\limpiar1.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\Login Manager.png" />
+    <Content Include="Images\LOGO TAMIZAJE NEONATAL CON ESSALUD.png" />
+    <Content Include="Images\logoEssalud.png" />
+    <Content Include="Images\LogoINMP.jpg" />
+    <Content Include="Images\Logo_Minsa_SB2.jpg" />
+    <Content Include="Images\logo_tamizaje_neonatal_con_essalud_idC_icon.ico" />
+    <Content Include="Images\Nuevo.png" />
+    <Content Include="Images\People.png" />
+    <Content Include="Images\Reporte1.png" />
+    <Content Include="Images\Reporte2.png" />
+    <Content Include="Images\Salir.png" />
+    <Content Include="Images\save-32.png" />
+    <Content Include="Images\search.gif" />
+    <Content Include="Images\separacion.jpg" />
+    <Content Include="Images\usuario.png" />
+    <Content Include="Muestras\AdministrarMuestras.aspx" />
+    <Content Include="Muestras\AdministrarMuestrasRechazadas.aspx" />
+    <Content Include="Muestras\EditarMuestra.aspx" />
+    <Content Include="Muestras\RegistrarMuestra.aspx" />
+    <Content Include="Publicacion\AdministrarMuestrasExportadas.aspx" />
+    <Content Include="Publicacion\AdministrarPublicacion.aspx" />
+    <Content Include="Publicacion\AdministrarPublicacionINMP.aspx" />
+    <Content Include="Publicacion\AdministrarResultadosPublicados.aspx" />
+    <Content Include="Publicacion\PublicarResultados.aspx" />
+    <Content Include="Publicacion\PublicarResultadosINMP.aspx" />
+    <Content Include="Publicacion\WebFormPrueba.aspx" />
+    <Content Include="Resultados\BuscarResultado.aspx" />
+    <Content Include="Resultados\ResultadosEstablecimiento.aspx" />
+    <Content Include="Scripts\ScriptFile.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AdministrarUsuarios.aspx.cs">
+      <DependentUpon>AdministrarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AdministrarUsuarios.aspx.designer.cs">
+      <DependentUpon>AdministrarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegistrarUsuario.aspx.cs">
+      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegistrarUsuario.aspx.designer.cs">
+      <DependentUpon>RegistrarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Digitacion\AdministrarDigitacion.aspx.cs">
+      <DependentUpon>AdministrarDigitacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Digitacion\AdministrarDigitacion.aspx.designer.cs">
+      <DependentUpon>AdministrarDigitacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Digitacion\AdministrarEnvios.aspx.cs">
+      <DependentUpon>AdministrarEnvios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Digitacion\AdministrarEnvios.aspx.designer.cs">
+      <DependentUpon>AdministrarEnvios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Digitacion\EditarEnvio.aspx.cs">
+      <DependentUpon>EditarEnvio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Digitacion\EditarEnvio.aspx.designer.cs">
+      <DependentUpon>EditarEnvio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Digitacion\GenerarListaEnvio.aspx.cs">
+      <DependentUpon>GenerarListaEnvio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Digitacion\GenerarListaEnvio.aspx.designer.cs">
+      <DependentUpon>GenerarListaEnvio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Digitacion\RevisarEnvios.aspx.cs">
+      <DependentUpon>RevisarEnvios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Digitacion\RevisarEnvios.aspx.designer.cs">
+      <DependentUpon>RevisarEnvios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Establecimientos\AdministrarEstablecimientos.aspx.cs">
+      <DependentUpon>AdministrarEstablecimientos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Establecimientos\AdministrarEstablecimientos.aspx.designer.cs">
+      <DependentUpon>AdministrarEstablecimientos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Establecimientos\AdministrarRechazadasAlteradas.aspx.cs">
+      <DependentUpon>AdministrarRechazadasAlteradas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Establecimientos\AdministrarRechazadasAlteradas.aspx.designer.cs">
+      <DependentUpon>AdministrarRechazadasAlteradas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Establecimientos\RegistrarEstablecimiento.aspx.cs">
+      <DependentUpon>RegistrarEstablecimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Establecimientos\RegistrarEstablecimiento.aspx.designer.cs">
+      <DependentUpon>RegistrarEstablecimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Muestras\AdministrarMuestrasRechazadas.aspx.cs">
+      <DependentUpon>AdministrarMuestrasRechazadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muestras\AdministrarMuestrasRechazadas.aspx.designer.cs">
+      <DependentUpon>AdministrarMuestrasRechazadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarMuestrasExportadas.aspx.cs">
+      <DependentUpon>AdministrarMuestrasExportadas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarMuestrasExportadas.aspx.designer.cs">
+      <DependentUpon>AdministrarMuestrasExportadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarPublicacion.aspx.cs">
+      <DependentUpon>AdministrarPublicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarPublicacion.aspx.designer.cs">
+      <DependentUpon>AdministrarPublicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarPublicacionINMP.aspx.cs">
+      <DependentUpon>AdministrarPublicacionINMP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarPublicacionINMP.aspx.designer.cs">
+      <DependentUpon>AdministrarPublicacionINMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarResultadosPublicados.aspx.cs">
+      <DependentUpon>AdministrarResultadosPublicados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarResultadosPublicados.aspx.designer.cs">
+      <DependentUpon>AdministrarResultadosPublicados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\PublicarResultados.aspx.cs">
+      <DependentUpon>PublicarResultados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\PublicarResultados.aspx.designer.cs">
+      <DependentUpon>PublicarResultados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\PublicarResultadosINMP.aspx.cs">
+      <DependentUpon>PublicarResultadosINMP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\PublicarResultadosINMP.aspx.designer.cs">
+      <DependentUpon>PublicarResultadosINMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\WebFormPrueba.aspx.cs">
+      <DependentUpon>WebFormPrueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\WebFormPrueba.aspx.designer.cs">
+      <DependentUpon>WebFormPrueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Muestras\AdministrarMuestras.aspx.cs">
+      <DependentUpon>AdministrarMuestras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muestras\AdministrarMuestras.aspx.designer.cs">
+      <DependentUpon>AdministrarMuestras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Muestras\EditarMuestra.aspx.cs">
+      <DependentUpon>EditarMuestra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muestras\EditarMuestra.aspx.designer.cs">
+      <DependentUpon>EditarMuestra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Muestras\RegistrarMuestra.aspx.cs">
+      <DependentUpon>RegistrarMuestra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muestras\RegistrarMuestra.aspx.designer.cs">
+      <DependentUpon>RegistrarMuestra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resultados\BuscarResultado.aspx.cs">
+      <DependentUpon>BuscarResultado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resultados\BuscarResultado.aspx.designer.cs">
+      <DependentUpon>BuscarResultado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Resultados\ResultadosEstablecimiento.aspx.cs">
+      <DependentUpon>ResultadosEstablecimiento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resultados\ResultadosEstablecimiento.aspx.designer.cs">
+      <DependentUpon>ResultadosEstablecimiento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Estadisticas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BC\BC.csproj">
+      <Project>{6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7}</Project>
+      <Name>BC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BE\BE.csproj">
+      <Project>{3EA1EDBF-E9CB-4B18-9E33-C16DCD919AF6}</Project>
+      <Name>BE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebAdmin.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebCentral.sitemap" />
+    <Content Include="WebSedes.sitemap" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2310</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+<Modules>
+  <Module PersistentId="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3" ModuleId="TamiLifeSA" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="3EA1EDBF-E9CB-4B18-9E33-C16DCD919AF6" ModuleId="BE" />
+  <Module PersistentId="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7" ModuleId="BC" />
+  <Module PersistentId="A9C42AAF-CB5E-4847-9506-505172FF0128" ModuleId="DA" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+  <Module PersistentId="0F142BF9-4B78-4DD4-AEC3-5346D2AC6E4D" ModuleId="TamizajeApp" />
+  <Module PersistentId="21D9B7BF-A736-4260-ADBB-564ACD6A3C4D" ModuleId="DA_GSP" />
+</Modules>

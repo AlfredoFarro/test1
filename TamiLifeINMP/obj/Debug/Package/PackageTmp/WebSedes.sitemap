@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="Home">
+    <siteMapNode title="Inicio" description="Inicio" url="~/Default.aspx"/>
+    <siteMapNode title="Resultados" description="Resultados">
+      <!--<siteMapNode url="~/Resultados/ResultadosEstablecimiento.aspx" title="Resultados por Establecimiento" description="Buscar Resultados por Hospital" />-->
+      <siteMapNode url="~/Resultados/ResultadosEstablecimiento.aspx" title="Resultados por Establecimiento" description="Resultados por Establecimiento" />
+    </siteMapNode>
+    <siteMapNode title="Muestras" description="Muestras">
+      <!--<siteMapNode url="~/Muestras/AdministrarMuestras.aspx" title="Administrar Muestras" description="Administrar Muestras" />-->
+      <siteMapNode url="~/Muestras/RegistrarMuestra.aspx" title="Registrar Muestras" description="Registrar Muestras" />
+      <!--<siteMapNode url="~/Muestras/MuestrasSinIngresar.aspx" title="Muestra Sin Ingresar o Incompletas" description="Datos Incompletos" />-->
+    </siteMapNode>
+    <!--<siteMapNode title="Digitación" description="Digitación">
+      <siteMapNode url="~/Digitacion/MuestrasRecibidasIncompletas.aspx" title="Muestras Recibidas Incompletas" description="Muestras Incompletas por Hospital" />
+      <siteMapNode url="~/Digitacion/MuestrasProcesadasIncompletas.aspx" title="Muestra Procesadas Incompletas" description="Datos Incompletos" />
+      <siteMapNode url="~/Digitacion/AdministrarDigitacion.aspx" title="Administrar Digitación" description="Adminitrar Digitación" />
+      <siteMapNode url="~/Digitacion/AdministrarEnvios.aspx" title="Administrar Envios" description="Administrar Envios" />
+      <siteMapNode url="~/Digitacion/GenerarListaEnvio.aspx" title="Generar Lista de Envio" description="Generar Lista de Envio" />
+    </siteMapNode>-->
+    <siteMapNode title="Contacto" description="Contacto" url="~/About.aspx">
+      <!--<siteMapNode url="~/Estadisticas/ConsultaResultadosDNI.aspx" title="Consulta de Resultados DNI" description="Consulta de Resultados DNI" />-->
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

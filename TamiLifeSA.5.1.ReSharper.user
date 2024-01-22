@@ -1,0 +1,1257 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:ResultadosAlteradosArchivo.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Publicacion/f:AdministrarPublicacion.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:ConsolidadoMuestrasRechazadas.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Digitacion/f:RevisarEnvios.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:AdministrarMuestrasRechazadas.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Digitacion/f:AdministrarDigitacion.aspx.cs" caret="671" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:ResultadosEstablecimiento.aspx" caret="250" fromTop="4" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:ResultadosConsolidados.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:ResultadosVerificacion.aspx" caret="26215" fromTop="21" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:ResultadosVerificacion.aspx.cs" caret="359" fromTop="16" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx.cs" caret="10199" fromTop="230" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:BuscarResultado.aspx" caret="2326" fromTop="32" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="1341" fromTop="15" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:BuscarResultado.aspx.cs" caret="7991" fromTop="148" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:ParametroGeneralDA.cs" caret="448" fromTop="12" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Web.config" caret="1380" fromTop="19" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:WebAdmin.sitemap" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:WebCentral.sitemap" caret="2976" fromTop="31" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:AdministrarMuestras.aspx.cs" caret="16811" fromTop="322" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Account/f:AdministrarUsuarios.aspx" caret="7491" fromTop="17" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Account/f:AdministrarUsuarios.aspx.cs" caret="247" fromTop="12" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Digitacion/f:GenerarListaEnvio.aspx" caret="0" fromTop="0" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:MuestraBC.cs" caret="6363" fromTop="17" />
+      <File id="6C5416A9-B32C-4740-BD28-CCA2EF7FE5D7/f:EnvioBC.cs" caret="4043" fromTop="20" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:EnvioDA.cs" caret="7880" fromTop="31" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Digitacion/f:GenerarListaEnvio.aspx.cs" caret="10049" fromTop="10" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Digitacion/f:AdministrarDigitacion.aspx" caret="12155" fromTop="15" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:RegistrarMuestra.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:RegistrarMuestra.aspx.cs" caret="21804" fromTop="29" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:MuestraDA.cs" caret="11638" fromTop="9" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Reportes.cs" caret="10081" fromTop="3" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Reportes.cs" caret="11806" fromTop="16" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:MuestraDA.cs" caret="18658" fromTop="3" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:MuestraDA.cs" caret="20906" fromTop="31" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:AdministrarMuestrasRechazadas.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Digitacion/f:AdministrarDigitacion.aspx.cs" caret="696" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="28106" fromTop="1" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="499" fromTop="5" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="27721" fromTop="493" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="27701" fromTop="493" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="323" fromTop="2" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Resultados/f:ResultadosVerificacion.aspx" caret="0" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="23010" fromTop="47" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="27701" fromTop="47" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx.cs" caret="234" fromTop="7" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx.cs" caret="20718" fromTop="49" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx.cs" caret="2382" fromTop="0" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx.cs" caret="10199" fromTop="30" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="1476" fromTop="19" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="2348" fromTop="32" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="16679" fromTop="15" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Estadisticas/f:RespaldoResultados.aspx" caret="1341" fromTop="15" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/f:Web.config" caret="296" fromTop="7" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Digitacion/f:AdministrarDigitacion.aspx" caret="11526" fromTop="10" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:MuestraDA.cs" caret="21516" fromTop="14" />
+      <File id="A9C42AAF-CB5E-4847-9506-505172FF0128/f:EnvioDA.cs" caret="8112" fromTop="20" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:RegistrarMuestra.aspx.cs" caret="31359" fromTop="20" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:RegistrarMuestra.aspx.cs" caret="8132" fromTop="18" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:RegistrarMuestra.aspx.cs" caret="8335" fromTop="23" />
+      <File id="6291CEE5-6E4F-4BAD-8438-B22A6BEAACA3/d:Muestras/f:RegistrarMuestra.aspx.cs" caret="21804" fromTop="29" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="40" />
+      <Item value="Visible" priority="11" />
+      <Item value="ForeColor" priority="1" />
+      <Item value="Font" priority="0" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="new" priority="49" />
+      <Item value="List&lt;Vista_ResultadosHospital&gt;" priority="1" />
+      <Item value="using" priority="38" />
+      <Item value="BE" priority="18" />
+      <Item value="BC" priority="12" />
+      <Item value="readonly" priority="12" />
+      <Item value="private" priority="15" />
+      <Item value="void" priority="25" />
+      <Item value="dtResultados" priority="1" />
+      <Item value="DataTable" priority="2" />
+      <Item value="public" priority="45" />
+      <Item value="List" priority="50" />
+      <Item value="Ensayo`0" priority="3" />
+      <Item value="int" priority="105" />
+      <Item value="DateTime`0" priority="73" />
+      <Item value="List&lt;Ensayo&gt;" priority="0" />
+      <Item value="listaEnsayos" priority="3" />
+      <Item value="db" priority="39" />
+      <Item value="e" priority="14" />
+      <Item value="fechaResultado" priority="2" />
+      <Item value="return" priority="88" />
+      <Item value="if" priority="139" />
+      <Item value="idPrueba" priority="4" />
+      <Item value="runId" priority="2" />
+      <Item value="null" priority="24" />
+      <Item value="else" priority="78" />
+      <Item value="da" priority="39" />
+      <Item value="Prueba`0" priority="1" />
+      <Item value="ResultadoBC`0" priority="7" />
+      <Item value="ResultadoBC" priority="3" />
+      <Item value="auxNumEnsayo" priority="0" />
+      <Item value="dgvResultados" priority="7" />
+      <Item value="txtFechaResultado" priority="1" />
+      <Item value="string" priority="117" />
+      <Item value="auxDate" priority="1" />
+      <Item value="out" priority="21" />
+      <Item value="bool" priority="29" />
+      <Item value="false" priority="49" />
+      <Item value="IFormatProvider`0" priority="5" />
+      <Item value="auxRunId" priority="1" />
+      <Item value="EnsayoBC`0" priority="0" />
+      <Item value="EnsayoBC" priority="0" />
+      <Item value="Resultado`0" priority="7" />
+      <Item value="idEnsayo" priority="5" />
+      <Item value="ensayoBC" priority="1" />
+      <Item value="listaResultados" priority="6" />
+      <Item value="var" priority="32" />
+      <Item value="lblFechaResultado" priority="0" />
+      <Item value="ensayo" priority="1" />
+      <Item value="lblNumEnsayo" priority="0" />
+      <Item value="Vista_BuscarPaciente`0" priority="6" />
+      <Item value="Vista_BuscarResultado`0" priority="0" />
+      <Item value="Session" priority="2" />
+      <Item value="GridView1" priority="0" />
+      <Item value="NavigationMenu" priority="0" />
+      <Item value="Master" priority="0" />
+      <Item value="txtDNI" priority="9" />
+      <Item value="List&lt;VistaResultadoDNI&gt;" priority="0" />
+      <Item value="resultadoDNI" priority="4" />
+      <Item value="resultadoBC" priority="3" />
+      <Item value="dgvResultado" priority="2" />
+      <Item value="lblNombreMadre" priority="0" />
+      <Item value="lblDNI" priority="1" />
+      <Item value="lblHClinica" priority="0" />
+      <Item value="lblFechaNacimiento" priority="4" />
+      <Item value="lblEstablecimiento" priority="1" />
+      <Item value="ReporteDA`0" priority="0" />
+      <Item value="ReporteDA" priority="0" />
+      <Item value="ReporteBC`0" priority="1" />
+      <Item value="iTextSharp" priority="0" />
+      <Item value="Muestra`0" priority="23" />
+      <Item value="m" priority="51" />
+      <Item value="madre" priority="24" />
+      <Item value="Neonato`0" priority="12" />
+      <Item value="reporteBC" priority="5" />
+      <Item value="idNeonato" priority="15" />
+      <Item value="listaNeonatos" priority="9" />
+      <Item value="neonato" priority="25" />
+      <Item value="Madre`0" priority="10" />
+      <Item value="foreach" priority="13" />
+      <Item value="muestra" priority="96" />
+      <Item value="codigoMuestra" priority="12" />
+      <Item value="r" priority="30" />
+      <Item value="resultado" priority="10" />
+      <Item value="panelResultados" priority="0" />
+      <Item value="true" priority="38" />
+      <Item value="System" priority="2" />
+      <Item value="Configuration" priority="0" />
+      <Item value="ReporteBC" priority="0" />
+      <Item value="ddlDepartamento" priority="2" />
+      <Item value="habilitado" priority="17" />
+      <Item value="ddlProvincia" priority="2" />
+      <Item value="ddlDistrito" priority="1" />
+      <Item value="muestraCompleta" priority="44" />
+      <Item value="txtCodigoCorrelativo" priority="6" />
+      <Item value="Vista_ResultadosHospital`0" priority="0" />
+      <Item value="Vista_ResultadosEstablecimiento`0" priority="0" />
+      <Item value="DA" priority="2" />
+      <Item value="DigitacionDA`0" priority="0" />
+      <Item value="DigitacionDA" priority="0" />
+      <Item value="idEstablecimiento" priority="34" />
+      <Item value="DigitacionBC`0" priority="1" />
+      <Item value="DigitacionBC" priority="1" />
+      <Item value="Vista_MadresRepetida`0" priority="0" />
+      <Item value="Vista_Muestra`0" priority="10" />
+      <Item value="digitacionBC" priority="2" />
+      <Item value="dgvMuestras" priority="5" />
+      <Item value="chkAll" priority="2" />
+      <Item value="AccesoDB`0" priority="0" />
+      <Item value="AccesoDB" priority="0" />
+      <Item value="Envio`0" priority="9" />
+      <Item value="EnvioDA`0" priority="0" />
+      <Item value="EnvioDA" priority="0" />
+      <Item value="Envio" priority="0" />
+      <Item value="envio" priority="46" />
+      <Item value="cb" priority="0" />
+      <Item value="List&lt;Muestra&gt;" priority="0" />
+      <Item value="cont" priority="2" />
+      <Item value="listaidMuestra" priority="4" />
+      <Item value="EnvioBC`0" priority="2" />
+      <Item value="EnvioBC" priority="0" />
+      <Item value="InsertarEnvio`0" priority="0" />
+      <Item value="lista" priority="13" />
+      <Item value="ListaidMuestras" priority="0" />
+      <Item value="try" priority="5" />
+      <Item value="listaIdMuestras" priority="0" />
+      <Item value="MarcarMuestrasEnviadas`0" priority="0" />
+      <Item value="listaIdMuestra" priority="0" />
+      <Item value="listaIdMuestrasEnviadas" priority="0" />
+      <Item value="CargarGrilla`0" priority="10" />
+      <Item value="ddlEstablecimiento" priority="6" />
+      <Item value="Vista_Envio`0" priority="2" />
+      <Item value="usarInicio" priority="5" />
+      <Item value="usarFin" priority="6" />
+      <Item value="dateInicio" priority="1" />
+      <Item value="dateFin" priority="3" />
+      <Item value="txtFechaRecepcion" priority="3" />
+      <Item value="radAceptadaNo" priority="2" />
+      <Item value="ddlTipoEstablecimiento" priority="5" />
+      <Item value="rfvFechaRecepcion" priority="0" />
+      <Item value="rfvCodigoCorrelativo" priority="0" />
+      <Item value="ApellidosNeonato" priority="1" />
+      <Item value="fechaAux" priority="8" />
+      <Item value="UbigeoBC`0" priority="0" />
+      <Item value="UbigeoBC" priority="0" />
+      <Item value="ubigeoBC" priority="0" />
+      <Item value="fechaRecepcion" priority="4" />
+      <Item value="Establecimiento`0" priority="4" />
+      <Item value="tipoEstablecimientoBC" priority="0" />
+      <Item value="MuestraCompletaBE`0" priority="4" />
+      <Item value="txtCodigoMuestra" priority="11" />
+      <Item value="muestraCompletaBC" priority="1" />
+      <Item value="lblAuxNombreNeonato" priority="1" />
+      <Item value="lblAuxApellidoNeonato" priority="0" />
+      <Item value="lblEdadGestacional" priority="1" />
+      <Item value="lblAuxNombreMadre" priority="0" />
+      <Item value="lblAuxApellidoMadre" priority="0" />
+      <Item value="lblAuxDireccion" priority="0" />
+      <Item value="lblAuxTelefono" priority="0" />
+      <Item value="lblAuxCelular" priority="0" />
+      <Item value="lblAuxDNI" priority="0" />
+      <Item value="pnlAdministrador" priority="1" />
+      <Item value="txtFechaToma" priority="0" />
+      <Item value="txtHoraToma" priority="0" />
+      <Item value="fechaTomaAux" priority="4" />
+      <Item value="txtTomadoPor" priority="0" />
+      <Item value="txtPeso" priority="1" />
+      <Item value="txtTalla" priority="1" />
+      <Item value="txtNotas" priority="8" />
+      <Item value="txtUltLactancia" priority="0" />
+      <Item value="lblHoraNacimiento" priority="0" />
+      <Item value="float" priority="0" />
+      <Item value="Decimal`0" priority="0" />
+      <Item value="idMadre" priority="3" />
+      <Item value="estado" priority="1" />
+      <Item value="madreBC" priority="4" />
+      <Item value="neonatoBC" priority="5" />
+      <Item value="imbEditar" priority="2" />
+      <Item value="CargarGrillaMuestras`0" priority="0" />
+      <Item value="LimpiarControles`0" priority="1" />
+      <Item value="btnCargar" priority="0" />
+      <Item value="btnAgregar" priority="0" />
+      <Item value="MadreBC`0" priority="3" />
+      <Item value="MadreBC" priority="1" />
+      <Item value="NeonatoBC" priority="0" />
+      <Item value="MuestraBC" priority="3" />
+      <Item value="txtApellidoMadre" priority="0" />
+      <Item value="txtNombreMadre" priority="1" />
+      <Item value="txtEdadMadre" priority="0" />
+      <Item value="txtHClinica" priority="0" />
+      <Item value="txtTelefono" priority="0" />
+      <Item value="txtCelular" priority="0" />
+      <Item value="txtEdadGestacional" priority="1" />
+      <Item value="txtApellidoNeonato" priority="2" />
+      <Item value="txtNombreNeonato" priority="2" />
+      <Item value="CargarFormularioAgregarMuestra`0" priority="1" />
+      <Item value="CargarFormularioNuevaMuestra`0" priority="0" />
+      <Item value="ddlNeonato" priority="13" />
+      <Item value="rfvCodigoMuestra" priority="0" />
+      <Item value="CambiarEstadoControles`0" priority="0" />
+      <Item value="muestraBC" priority="12" />
+      <Item value="listaMuestra" priority="1" />
+      <Item value="txtNMuestra" priority="0" />
+      <Item value="hdnIdMadre" priority="3" />
+      <Item value="hdnIdNeonato" priority="9" />
+      <Item value="CargarNeonatos`0" priority="0" />
+      <Item value="CargarControlesNeonato`0" priority="0" />
+      <Item value="Muestra" priority="0" />
+      <Item value="Neonato" priority="1" />
+      <Item value="Madre" priority="0" />
+      <Item value="btnGuardar" priority="0" />
+      <Item value="CambiarEstadoControlesMadre`0" priority="1" />
+      <Item value="CambiarEstadoControlesNeonato`0" priority="1" />
+      <Item value="CambiarEstadoControlesMuestra`0" priority="2" />
+      <Item value="neonatoAux" priority="4" />
+      <Item value="lblNeonato" priority="5" />
+      <Item value="radAceptadaSi" priority="0" />
+      <Item value="reportePDF`0" priority="2" />
+      <Item value="Vista_MuestrasxEnvio`0" priority="2" />
+      <Item value="idEnvio" priority="25" />
+      <Item value="envioBC" priority="3" />
+      <Item value="Page" priority="0" />
+      <Item value="sexo" priority="1" />
+      <Item value="usuarioAux" priority="0" />
+      <Item value="establecimientoAux" priority="1" />
+      <Item value="hdnSede" priority="2" />
+      <Item value="Font`0" priority="1" />
+      <Item value="Usuario`0" priority="3" />
+      <Item value="u" priority="2" />
+      <Item value="usuario" priority="15" />
+      <Item value="UsuarioBC`0" priority="1" />
+      <Item value="UsuarioBC" priority="1" />
+      <Item value="txtUsuario" priority="0" />
+      <Item value="usuarioBC" priority="2" />
+      <Item value="Vista_Usuario`0" priority="1" />
+      <Item value="row" priority="1" />
+      <Item value="lbtDownload" priority="0" />
+      <Item value="lblUsuario" priority="1" />
+      <Item value="txtPassword" priority="1" />
+      <Item value="mu" priority="1" />
+      <Item value="DNI" priority="3" />
+      <Item value="apellidosNeonato" priority="4" />
+      <Item value="apellidosMadre" priority="1" />
+      <Item value="usarFechaInicial" priority="3" />
+      <Item value="fechaDigitadoInicial" priority="1" />
+      <Item value="fechaInicialAux" priority="0" />
+      <Item value="usarFechaFinal" priority="1" />
+      <Item value="fechaDigitadoFinal" priority="1" />
+      <Item value="fechaFinalAux" priority="1" />
+      <Item value="List&lt;Vista_Muestra&gt;" priority="1" />
+      <Item value="txtFechaInicio" priority="2" />
+      <Item value="txtFechaFin" priority="2" />
+      <Item value="MuestraBC`0" priority="5" />
+      <Item value="lblNumRegistros" priority="1" />
+      <Item value="Int16`0" priority="9" />
+      <Item value="ObtenerListaMuestrasxEnvio`0" priority="0" />
+      <Item value="ObtenerEnvios`0" priority="0" />
+      <Item value="n" priority="2" />
+      <Item value="txtHoraNacimiento" priority="0" />
+      <Item value="determinacion" priority="0" />
+      <Item value="ddlTipoResultado" priority="0" />
+      <Item value="FuncionesComunes`0" priority="1" />
+      <Item value="FuncionesComunes" priority="1" />
+      <Item value="lblCodigoMuestra" priority="0" />
+      <Item value="Test`0" priority="1" />
+      <Item value="Test" priority="0" />
+      <Item value="t" priority="0" />
+      <Item value="Response" priority="3" />
+      <Item value="cfvExisteCodigoMuestra" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="ValidationSummary1" priority="1" />
+      <Item value="RegistroExitoso" priority="0" />
+      <Item value="establecimientoBC" priority="1" />
+      <Item value="args" priority="1" />
+      <Item value="rfvDNI" priority="0" />
+      <Item value="hdnExisteMuestra" priority="1" />
+      <Item value="hdnExisteCorrelativo" priority="1" />
+      <Item value="cfvExisteCodigoCorrelativo" priority="0" />
+      <Item value="existeCodigoCorrelativo" priority="0" />
+      <Item value="DivPrincipal" priority="0" />
+      <Item value="hdnCodigoMuestra" priority="0" />
+      <Item value="NullReferenceException`0" priority="0" />
+      <Item value="user" priority="0" />
+      <Item value="DateTime" priority="1" />
+      <Item value="dgvRechazadas" priority="5" />
+      <Item value="listaMuestrasRechazadas" priority="1" />
+      <Item value="CargarGrillaResultados`0" priority="0" />
+      <Item value="CargarGrillaRechazadas`0" priority="0" />
+      <Item value="hdnIdEstablecimiento" priority="0" />
+      <Item value="EstablecimientoBC`0" priority="1" />
+      <Item value="EstablecimientoBC" priority="1" />
+      <Item value="establecimiento" priority="6" />
+      <Item value="List&lt;Vista_ResultadosEstablecimiento&gt;" priority="0" />
+      <Item value="responsable1" priority="0" />
+      <Item value="rta" priority="0" />
+      <Item value="listaCodigosMuestras" priority="3" />
+      <Item value="CargarGrillas`0" priority="0" />
+      <Item value="p" priority="12" />
+      <Item value="codigoCorrelativo" priority="3" />
+      <Item value="CargarTipoEstablecimiento`0" priority="0" />
+      <Item value="CargarEstablecimiento`0" priority="0" />
+      <Item value="tipoEstablecimiento" priority="1" />
+      <Item value="ExportGridToCSV`0" priority="1" />
+      <Item value="Vista_ResultadosArchivo`0" priority="1" />
+      <Item value="inicio" priority="2" />
+      <Item value="prueba" priority="2" />
+      <Item value="ddlPrueba" priority="0" />
+      <Item value="UTF8Encoding`0" priority="0" />
+      <Item value="encoding" priority="0" />
+      <Item value="Encoding`0" priority="0" />
+      <Item value="select" priority="0" />
+      <Item value="resultado`0" priority="0" />
+      <Item value="prop" priority="5" />
+      <Item value="FechaResultado" priority="0" />
+      <Item value="Resultado" priority="0" />
+      <Item value="Peso" priority="0" />
+      <Item value="EdadGestacional" priority="0" />
+      <Item value="Establecimiento" priority="1" />
+      <Item value="resul`0" priority="0" />
+      <Item value="res" priority="10" />
+      <Item value="linea" priority="4" />
+      <Item value="tabulador" priority="11" />
+      <Item value="paciente" priority="2" />
+      <Item value="fun" priority="0" />
+      <Item value="dateInicioToma" priority="0" />
+      <Item value="txtFechaInicioToma" priority="0" />
+      <Item value="txtFechaFinToma" priority="0" />
+      <Item value="fin" priority="1" />
+      <Item value="Data" priority="0" />
+      <Item value="Sql" priority="0" />
+      <Item value="listaPruebas" priority="0" />
+      <Item value="fechaConsolidado" priority="1" />
+      <Item value="DataTable`0" priority="10" />
+      <Item value="dt" priority="11" />
+      <Item value="pruebas" priority="0" />
+      <Item value="listaCodigos" priority="3" />
+      <Item value="codigo" priority="0" />
+      <Item value="i" priority="1" />
+      <Item value="primero" priority="0" />
+      <Item value="DataRow`0" priority="2" />
+      <Item value="dr" priority="1" />
+      <Item value="dtCodigos" priority="0" />
+      <Item value="Linq" priority="0" />
+      <Item value="pacientes" priority="0" />
+      <Item value="drPaciente" priority="0" />
+      <Item value="RowNotInTableException`0" priority="0" />
+      <Item value="fechaConsulta" priority="0" />
+      <Item value="dgvPacientes" priority="1" />
+      <Item value="txtFechaNacimiento" priority="0" />
+      <Item value="dni" priority="4" />
+      <Item value="nombre" priority="0" />
+      <Item value="apellidos" priority="2" />
+      <Item value="listaRechazadas" priority="0" />
+      <Item value="nombres" priority="1" />
+      <Item value="ArgumentOutOfRangeException`0" priority="0" />
+      <Item value="fechaNacimiento" priority="3" />
+      <Item value="ActualizarMuestra`0" priority="0" />
+      <Item value="is" priority="2" />
+      <Item value="_phraseBlanco" priority="8" />
+      <Item value="_arial8NormalBlack" priority="15" />
+      <Item value="_arial12BoldBlack" priority="5" />
+      <Item value="_arial12NormalBlack" priority="2" />
+      <Item value="_arial8BoldBlack" priority="6" />
+      <Item value="_arial14BoldBlack" priority="5" />
+      <Item value="_arial10BoldBlack" priority="7" />
+      <Item value="_arial10NormalBlack" priority="10" />
+      <Item value="_arial12BoldRed" priority="4" />
+      <Item value="idHospital" priority="0" />
+      <Item value="query" priority="2" />
+      <Item value="ddlEstado" priority="1" />
+      <Item value="NMuestra" priority="1" />
+      <Item value="dgvMadres" priority="1" />
+      <Item value="madreBc" priority="1" />
+      <Item value="hdnIdEnvio" priority="2" />
+      <Item value="aux" priority="1" />
+      <Item value="resultadoAux" priority="0" />
+      <Item value="OrderedEnumerableRowCollection" priority="0" />
+      <Item value="fuenteresultado" priority="1" />
+      <Item value="Font" priority="0" />
+      <Item value="soloPublicados" priority="0" />
+      <Item value="ddlPublicado" priority="0" />
+      <Item value="from" priority="0" />
+      <Item value="ObtenerListaMuestrasRechazadas`0" priority="0" />
+      <Item value="_muestraBc" priority="4" />
+      <Item value="dateInicioRecepcion" priority="0" />
+      <Item value="dateFinRecepcion" priority="0" />
+      <Item value="inicioRecepcion" priority="0" />
+      <Item value="finRecepcion" priority="0" />
+      <Item value="txtCorrelativo" priority="0" />
+      <Item value="txtFechaInicioRecepcion" priority="0" />
+      <Item value="txtFechaFinRecepcion" priority="0" />
+      <Item value="_envioBc" priority="5" />
+      <Item value="listaMuestras" priority="5" />
+      <Item value="txtCodigoRecibo" priority="3" />
+      <Item value="txtCourier" priority="2" />
+      <Item value="txtFechaEnvio" priority="5" />
+      <Item value="fechaEnvio" priority="4" />
+      <Item value="textoFechaEnvio" priority="0" />
+      <Item value="idMuestra" priority="0" />
+      <Item value="fechaTexto" priority="1" />
+      <Item value="establecimienot" priority="0" />
+      <Item value="ultCodigoCorrelativoEnvio" priority="0" />
+      <Item value="ActualizarEstablecimiento`0" priority="0" />
+      <Item value="_establecimientoBc" priority="0" />
+      <Item value="dgvMuestrasPendientes" priority="2" />
+      <Item value="lblNumPendientes" priority="0" />
+      <Item value="estadoEdicion" priority="0" />
+      <Item value="estadEdicion" priority="0" />
+      <Item value="lblNumCorrelativo" priority="0" />
+      <Item value="radFemenino" priority="0" />
+      <Item value="radMasculino" priority="0" />
+      <Item value="radTransfundidoNo" priority="0" />
+      <Item value="radTransfundidoSi" priority="0" />
+      <Item value="radPrematuroNo" priority="0" />
+      <Item value="radPrematuroSi" priority="0" />
+      <Item value="resultados" priority="0" />
+      <Item value="ObtenerNeonatosxIdMadre`0" priority="0" />
+      <Item value="fechaNac" priority="0" />
+      <Item value="NeonatoBC`0" priority="1" />
+      <Item value="_neonatoBc" priority="3" />
+      <Item value="tableNeonatos" priority="0" />
+      <Item value="listaIdEnvio" priority="0" />
+      <Item value="ObtenerEnvio`0" priority="0" />
+      <Item value="ActualizarEnvio`0" priority="0" />
+      <Item value="ddlEstadoEnvio" priority="0" />
+      <Item value="estadoEnvio" priority="5" />
+      <Item value="recibido" priority="0" />
+      <Item value="btnRecibido" priority="2" />
+      <Item value="idPaciente" priority="0" />
+      <Item value="IEnumerable" priority="0" />
+      <Item value="spResultadosHistoricosNeonatoResult`0" priority="0" />
+      <Item value="PruebaBC`0" priority="1" />
+      <Item value="Request" priority="0" />
+      <Item value="hdnOrigen" priority="0" />
+      <Item value="PaginaProcedencia" priority="0" />
+      <Item value="List&lt;Vista_ResultadosArchivo&gt;" priority="0" />
+      <Item value="ddlCourier" priority="1" />
+      <Item value="DataColumn`0" priority="0" />
+      <Item value="inicial" priority="2" />
+      <Item value="final" priority="0" />
+      <Item value="txtCorrelativoInicial" priority="0" />
+      <Item value="txtCorrelativoFinal" priority="0" />
+      <Item value="correlativoInt" priority="0" />
+      <Item value="rnvFechaRecepcion" priority="0" />
+      <Item value="List&lt;Vista_Envio&gt;" priority="0" />
+      <Item value="Boolean`0" priority="1" />
+      <Item value="muestraAceptada" priority="2" />
+      <Item value="NotFiniteNumberException`0" priority="0" />
+      <Item value="lblEstadoMuestra" priority="2" />
+      <Item value="Color`0" priority="1" />
+      <Item value="lblEtiquetaMotivo" priority="1" />
+      <Item value="lblMotivoRechazo" priority="3" />
+      <Item value="ddlNeonatos" priority="4" />
+      <Item value="Vista_Resultado`0" priority="1" />
+      <Item value="Vista_ResultadosMuestra`0" priority="1" />
+      <Item value="_resultadoBc" priority="2" />
+      <Item value="lblMadre" priority="0" />
+      <Item value="lblEdadMadre" priority="0" />
+      <Item value="lblSexo" priority="0" />
+      <Item value="lblPeso" priority="0" />
+      <Item value="for" priority="0" />
+      <Item value="_madreBc" priority="0" />
+      <Item value="Vista_MuestraResultado`0" priority="2" />
+      <Item value="listaMuestraResultados" priority="0" />
+      <Item value="lblAviso" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.TamizajeDBDataContext">
+      <Item value="Ensayo" priority="1" />
+      <Item value="Resultado" priority="1" />
+      <Item value="Madre" priority="0" />
+      <Item value="Muestras" priority="8" />
+      <Item value="Neonato" priority="0" />
+      <Item value="Vista_Muestras" priority="5" />
+      <Item value="Usuario" priority="0" />
+      <Item value="Envios" priority="4" />
+      <Item value="SubmitChanges`0" priority="1" />
+      <Item value="Madres" priority="1" />
+      <Item value="Vista_MuestrasxEnvios" priority="0" />
+      <Item value="Usuarios" priority="2" />
+      <Item value="Vista_Usuarios" priority="0" />
+      <Item value="Vista_BuscarPacientes" priority="1" />
+      <Item value="Vista_ResultadosArchivos" priority="0" />
+      <Item value="Establecimientos" priority="1" />
+      <Item value="Neonatos" priority="0" />
+      <Item value="Resultados" priority="1" />
+      <Item value="ExecuteQuery`0" priority="0" />
+      <Item value="spResultadosHistoricosNeonato`0" priority="0" />
+      <Item value="Vista_ResultadosMuestras" priority="0" />
+      <Item value="Vista_MuestraResultados" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="Where`1" priority="29" />
+      <Item value="Any`1" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Ensayo">
+      <Item value="RunDate" priority="1" />
+      <Item value="RunID" priority="2" />
+      <Item value="idPrueba" priority="0" />
+      <Item value="idEnsayo" priority="0" />
+      <Item value="FechaFinish" priority="1" />
+      <Item value="AssayRunID" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList`1" priority="24" />
+      <Item value="First`1" priority="7" />
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="OrderBy`2" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="11" />
+      <Item value="Parse`0" priority="5" />
+      <Item value="TryParse`0" priority="20" />
+      <Item value="Now" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Where`1" priority="6" />
+      <Item value="Count" priority="15" />
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="ForEach`0" priority="0" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="Add`0" priority="0" />
+      <Item value="Indexer" priority="1" />
+      <Item value="OrderBy`2" priority="5" />
+      <Item value="OrderByDescending`2" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="6" />
+      <Item value="Any`1" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.ResultadoDA">
+      <Item value="EnsayosProcesadas`0" priority="0" />
+      <Item value="ObtenerResultadosArchivo`0" priority="0" />
+      <Item value="ObtenerPacientes`0" priority="0" />
+      <Item value="ListaResultadosHistoricosPaciente`0" priority="0" />
+      <Item value="ObtenerResultadosVerificacion`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.ResultadoBC">
+      <Item value="EnsayosProcesados`0" priority="0" />
+      <Item value="ReporteDNI`0" priority="0" />
+      <Item value="ObtenerResultadosArchivo`0" priority="0" />
+      <Item value="ObtenerResutados`0" priority="1" />
+      <Item value="ListaResultadosHistoricosPaciente`0" priority="0" />
+      <Item value="ObtenerResultadosVerificacion`0" priority="0" />
+      <Item value="ResultadosxNeonato`0" priority="0" />
+      <Item value="ObtenerMuestraResultadosNeonato`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="8" />
+      <Item value="DataBind`0" priority="8" />
+      <Item value="DataBound" priority="0" />
+      <Item value="PageSize" priority="0" />
+      <Item value="Rows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="88" />
+      <Item value="Enabled" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="30" />
+      <Item value="Concat`0" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="CompareTo`0" priority="11" />
+      <Item value="Contains`0" priority="3" />
+      <Item value="Replace`0" priority="2" />
+      <Item value="Concat`1" priority="0" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="31" />
+      <Item value="TryParse`0" priority="1" />
+      <Item value="MinValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Resultado">
+      <Item value="idResultado" priority="0" />
+      <Item value="idEnsayo" priority="0" />
+      <Item value="CodigoMuestra" priority="3" />
+      <Item value="Ensayo" priority="0" />
+      <Item value="Analyte" priority="1" />
+      <Item value="Conc" priority="0" />
+      <Item value="Unidad" priority="1" />
+      <Item value="Publicado" priority="1" />
+      <Item value="AssayLineNumber" priority="1" />
+      <Item value="ConcTexto" priority="0" />
+      <Item value="ResultCode" priority="0" />
+      <Item value="CodigoCorrelativoInt" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.EnsayoDA">
+      <Item value="ListaResultados`0" priority="0" />
+      <Item value="ObtenerEnsayo2`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.EnsayoBC">
+      <Item value="ListaResultados`0" priority="0" />
+      <Item value="ObtenerEnsayo2`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString`0" priority="20" />
+      <Item value="ToShortTimeString`0" priority="3" />
+      <Item value="AddDays`0" priority="0" />
+      <Item value="Month" priority="2" />
+      <Item value="Year" priority="2" />
+      <Item value="Day" priority="2" />
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HiddenField">
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Menu">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TamiLifeSA.SiteMaster">
+      <Item value="OcultarMenu`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LoginView">
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.VistaResultadoDNI">
+      <Item value="Madre" priority="0" />
+      <Item value="DNI" priority="0" />
+      <Item value="HistoriaClinica" priority="0" />
+      <Item value="FechaNacimiento" priority="0" />
+      <Item value="Establecimiento" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="52" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.ReporteDA">
+      <Item value="ReporteDNI`0" priority="0" />
+      <Item value="ObtenerCantidadNeonatos`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.ReporteBC">
+      <Item value="ReporteDNI`0" priority="0" />
+      <Item value="ObtenerCantidadNeonatos`0" priority="0" />
+      <Item value="ObtenerCantidadMuestras`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.AccesoDB">
+      <Item value="dc" priority="35" />
+      <Item value="QueryDataTable`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Madre">
+      <Item value="DNI" priority="7" />
+      <Item value="idMadre" priority="6" />
+      <Item value="Nombres" priority="3" />
+      <Item value="Apellidos" priority="2" />
+      <Item value="HistoriaClinica" priority="1" />
+      <Item value="Telefono1" priority="3" />
+      <Item value="Departamento" priority="2" />
+      <Item value="Provincia" priority="1" />
+      <Item value="Distrito" priority="2" />
+      <Item value="Telefono2" priority="0" />
+      <Item value="Estado" priority="3" />
+      <Item value="Edad" priority="1" />
+      <Item value="Direccion" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Neonato">
+      <Item value="idMadre" priority="3" />
+      <Item value="idNeonato" priority="7" />
+      <Item value="FechaNacimiento" priority="3" />
+      <Item value="Nombres" priority="5" />
+      <Item value="EdadGestacional" priority="4" />
+      <Item value="Apellidos" priority="3" />
+      <Item value="EsPrematuro" priority="0" />
+      <Item value="Estado" priority="1" />
+      <Item value="Sexo" priority="1" />
+      <Item value="Peso" priority="1" />
+      <Item value="Talla" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Muestra">
+      <Item value="idNeonato" priority="4" />
+      <Item value="CodigoInternoLab" priority="12" />
+      <Item value="CodigoMuestra" priority="20" />
+      <Item value="FechaToma" priority="1" />
+      <Item value="idEstablecimiento" priority="4" />
+      <Item value="Notas" priority="1" />
+      <Item value="MuestraEnviada" priority="8" />
+      <Item value="idMuestra" priority="4" />
+      <Item value="idEnvio" priority="8" />
+      <Item value="MuestraAceptada" priority="2" />
+      <Item value="FechaRecepcion" priority="0" />
+      <Item value="TomadoPor" priority="0" />
+      <Item value="Peso" priority="0" />
+      <Item value="Talla" priority="0" />
+      <Item value="HoraUltLactancia" priority="0" />
+      <Item value="idMadreOri" priority="0" />
+      <Item value="Estado" priority="4" />
+      <Item value="RecibioMuestra" priority="2" />
+      <Item value="ModificadoPor" priority="0" />
+      <Item value="FechaModificacion" priority="0" />
+      <Item value="FechaTransfucion" priority="1" />
+      <Item value="AfiliacionSIS" priority="2" />
+      <Item value="CodRenaes" priority="0" />
+      <Item value="idEnvioAnterior" priority="2" />
+      <Item value="EstadoEdicion" priority="7" />
+      <Item value="Sin2daMuestra" priority="0" />
+      <Item value="CodigoCorrelativoInt" priority="1" />
+      <Item value="MotivoRechazo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_Muestra">
+      <Item value="Establecimiento" priority="3" />
+      <Item value="Peso" priority="0" />
+      <Item value="Talla" priority="0" />
+      <Item value="idEstablecimiento" priority="2" />
+      <Item value="MuestraEnviada" priority="2" />
+      <Item value="CodigoMuestra" priority="2" />
+      <Item value="DNI" priority="3" />
+      <Item value="ApellidosNeonato" priority="2" />
+      <Item value="ApellidosMadre" priority="0" />
+      <Item value="FechaDigitacion" priority="1" />
+      <Item value="Estado" priority="1" />
+      <Item value="RecibioMuestra" priority="0" />
+      <Item value="CodigoInternoLab" priority="5" />
+      <Item value="FechaRecepcion" priority="6" />
+      <Item value="FechaNacimiento" priority="1" />
+      <Item value="Telefono1" priority="1" />
+      <Item value="FechaToma" priority="1" />
+      <Item value="TomadoPor" priority="3" />
+      <Item value="idEnvio" priority="0" />
+      <Item value="EstadoEdicion" priority="1" />
+      <Item value="MotivoRechazo" priority="0" />
+      <Item value="EdadGestacional" priority="0" />
+      <Item value="Sexo" priority="2" />
+      <Item value="Codigo" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_Resultado">
+      <Item value="Nombre" priority="0" />
+      <Item value="Metodo" priority="0" />
+      <Item value="Rango" priority="0" />
+      <Item value="Publicado" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="Enabled" priority="4" />
+      <Item value="SelectedValue" priority="25" />
+      <Item value="DataSource" priority="1" />
+      <Item value="DataTextField" priority="0" />
+      <Item value="DataValueField" priority="0" />
+      <Item value="DataBind`0" priority="1" />
+      <Item value="Visible" priority="5" />
+      <Item value="SelectedItem" priority="1" />
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.MuestraCompletaBE">
+      <Item value="Madre" priority="7" />
+      <Item value="Muestra" priority="35" />
+      <Item value="Neonato" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="User" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.DigitacionDA">
+      <Item value="ObtenerMuestrasDigitadas`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.DigitacionBC">
+      <Item value="ObtenerMuestrasDigitadas`0" priority="2" />
+      <Item value="EliminarMuestra`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="2" />
+      <Item value="Visible" priority="0" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Envio">
+      <Item value="idEstablecimiento" priority="6" />
+      <Item value="Estado" priority="3" />
+      <Item value="FechaCreacion" priority="1" />
+      <Item value="NumTarjetas" priority="2" />
+      <Item value="idEnvio" priority="9" />
+      <Item value="Establecimiento" priority="1" />
+      <Item value="Notas" priority="3" />
+      <Item value="CreadoPor" priority="1" />
+      <Item value="ModificadoPor" priority="2" />
+      <Item value="FechaModificacion" priority="2" />
+      <Item value="Courier" priority="2" />
+      <Item value="FechaEnvio" priority="2" />
+      <Item value="CodigoRecibo" priority="2" />
+      <Item value="CodigoCorrelativoEnvio" priority="1" />
+      <Item value="CodigoEnvio" priority="1" />
+      <Item value="EnvioRecibido" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.EnvioDA">
+      <Item value="InsertarEnvio`0" priority="0" />
+      <Item value="ObtenerEnvios`0" priority="0" />
+      <Item value="MarcarMuestrasEnviadas`0" priority="0" />
+      <Item value="ObtenerListaMuestrasxEnvio`0" priority="0" />
+      <Item value="ObtenerEnvio`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.EnvioBC">
+      <Item value="InsertarEnvio`0" priority="0" />
+      <Item value="RegistrarEnvio`0" priority="0" />
+      <Item value="ObtenerListaMuestrasxEnvio`0" priority="0" />
+      <Item value="ObtenerEnvio`0" priority="2" />
+      <Item value="ActualizarEnvio`0" priority="1" />
+      <Item value="MarcarEnvioRecibido`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RadioButton">
+      <Item value="Enabled" priority="4" />
+      <Item value="Checked" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RequiredFieldValidator">
+      <Item value="EnableClientScript" priority="0" />
+      <Item value="Enabled" priority="3" />
+      <Item value="HasAttributes" priority="0" />
+      <Item value="IsValid" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Boolean">
+      <Item value="Parse`0" priority="2" />
+      <Item value="TryParse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_BuscarPaciente">
+      <Item value="ApellidosMadre" priority="3" />
+      <Item value="ApellidosNeonato" priority="5" />
+      <Item value="FechaCreacion" priority="0" />
+      <Item value="Estado" priority="2" />
+      <Item value="idEstablecimiento" priority="0" />
+      <Item value="CodigoInternoLab" priority="2" />
+      <Item value="CodigoMuestra" priority="4" />
+      <Item value="NombresNeonato" priority="3" />
+      <Item value="NombresMadre" priority="0" />
+      <Item value="FechaToma" priority="2" />
+      <Item value="FechaNacimiento" priority="4" />
+      <Item value="DNI" priority="2" />
+      <Item value="Telefono1" priority="0" />
+      <Item value="RecibioMuestra" priority="2" />
+      <Item value="idMuestra" priority="1" />
+      <Item value="MuestraAceptada" priority="0" />
+      <Item value="Sexo" priority="2" />
+      <Item value="Peso" priority="0" />
+      <Item value="Talla" priority="0" />
+      <Item value="EdadGestacional" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.EstablecimientoBC">
+      <Item value="ObtenerEstablecimientoxIdEstablecimiento`0" priority="3" />
+      <Item value="ObtenerCodigoCorrelativoEnvio`0" priority="0" />
+      <Item value="IncrementarCodigoCorrelativoEnvio`0" priority="0" />
+      <Item value="ObtenerUltimoCodigoEnvio`0" priority="0" />
+      <Item value="ActualizarEstablecimiento`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.UbigeoBC">
+      <Item value="ObtenerUbigeo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Ubigeo">
+      <Item value="Nombre" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.TipoEstablecimientoBC">
+      <Item value="ObtenerTipoEstablecimientoxId`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Establecimiento">
+      <Item value="idTipoEstablecimiento" priority="2" />
+      <Item value="Nombre" priority="4" />
+      <Item value="TipoEstablecimiento" priority="0" />
+      <Item value="idEstablecimiento" priority="0" />
+      <Item value="UltimoCodCorrEnvio" priority="2" />
+      <Item value="UltimoCodigoEnvio" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.TipoEstablecimiento">
+      <Item value="Nombre" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.MuestraCompletaBC">
+      <Item value="ObtenerMuestra`0" priority="0" />
+      <Item value="CambiarEstadoMadre`0" priority="0" />
+      <Item value="CambiarEstadoNeonato`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.MadreBC">
+      <Item value="ObtenerMadrexDNI`0" priority="2" />
+      <Item value="ObtenerMadrexIdMadre`0" priority="1" />
+      <Item value="ActualizarMadre`0" priority="0" />
+      <Item value="ExisteMadre`0" priority="0" />
+      <Item value="InsertarMadre`0" priority="0" />
+      <Item value="ObtenerMadresxDNI`0" priority="0" />
+      <Item value="liberarMadresDNI`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.NeonatoBC">
+      <Item value="ObtenerNeonatoxIdNeonato`0" priority="3" />
+      <Item value="ActualizarNeonato`0" priority="0" />
+      <Item value="ObtenerNeonatosxIdMadre`0" priority="2" />
+      <Item value="InsertarNeonato`0" priority="0" />
+      <Item value="ObtenerDataTableNeonatosxidMadre`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ImageButton">
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Visible" priority="2" />
+      <Item value="CausesValidation" priority="0" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.MadreDA">
+      <Item value="ExisteMadre`0" priority="0" />
+      <Item value="ObtenerMadresxDNI`0" priority="0" />
+      <Item value="liberarMadresDNI`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.MuestraBC">
+      <Item value="ObtenerMuestrasxIdNeonato`0" priority="1" />
+      <Item value="InsertarMuestra`0" priority="0" />
+      <Item value="ObtenerMuestraxCodigoMuestra`0" priority="1" />
+      <Item value="ActualizarMuestra`0" priority="4" />
+      <Item value="ObtenerMuestraxIdMuestra`0" priority="1" />
+      <Item value="ObtenerListaMuestrasRechazadasEstablecimiento`0" priority="0" />
+      <Item value="ExisteMuestra`0" priority="0" />
+      <Item value="MarcarAutomaticamenteMuestraRecibida`0" priority="0" />
+      <Item value="ObtenerListaMuestrasRechazadas`0" priority="0" />
+      <Item value="ObtenerListaMuestrasxEnvio`0" priority="0" />
+      <Item value="ObtenerMuestrasEnvio`0" priority="1" />
+      <Item value="ObtenerMuestrasCancelarEdicionEnvio`0" priority="0" />
+      <Item value="ObtenerMuestrasELiminadasEnvio`0" priority="0" />
+      <Item value="ObtenerMuestrasAgregadasEnvio`0" priority="0" />
+      <Item value="ObtenerMuestrasDigitadasEdicion`0" priority="0" />
+      <Item value="ObtenerMuestrasVerificacion`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_MuestrasxEnvio">
+      <Item value="idEnvio" priority="1" />
+      <Item value="NumMuestra" priority="0" />
+      <Item value="MuestraEnviada" priority="0" />
+      <Item value="FechaToma" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iTextSharp.text.Font">
+      <Item value="BOLD" priority="0" />
+      <Item value="NORMAL" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Usuario">
+      <Item value="NombreUsuario" priority="1" />
+      <Item value="IdEstablecimiento" priority="1" />
+      <Item value="FechaCreacion" priority="0" />
+      <Item value="CreadoPor" priority="0" />
+      <Item value="Pass" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.UsuarioDA">
+      <Item value="ObtenerUsuarios`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.UsuarioBC">
+      <Item value="ObtenerUsuarios`0" priority="0" />
+      <Item value="ObtenerUsuario`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_Usuario">
+      <Item value="NombreUsuario" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowEventArgs">
+      <Item value="Row" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="DataItem" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int16">
+      <Item value="TryParse`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.MuestraDA">
+      <Item value="ObtenerListaMuestrasxEnvio`0" priority="0" />
+      <Item value="ObtenerListaMuestrasRechazadasEstablecimiento`0" priority="0" />
+      <Item value="MarcarMuestrasRecibidas`0" priority="0" />
+      <Item value="ObtenerMuestrasEnvio`0" priority="0" />
+      <Item value="ObtenerMuestrasAgregadasEnvio`0" priority="0" />
+      <Item value="ObtenerMuestrasDigitadasEdicion`0" priority="0" />
+      <Item value="ObtenerMuestrasVerificacion`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_Envio">
+      <Item value="Estado" priority="0" />
+      <Item value="FechaCreacion" priority="0" />
+      <Item value="EnvioRecibido" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_ResultadosEstablecimiento">
+      <Item value="Publicado" priority="1" />
+      <Item value="rdcDeterminationLevel" priority="1" />
+      <Item value="RecibioMuestra" priority="0" />
+      <Item value="idEstablecimiento" priority="0" />
+      <Item value="NombresMadre" priority="0" />
+      <Item value="NombresNeonato" priority="2" />
+      <Item value="RetiradaPanelAlertas" priority="0" />
+      <Item value="idMuestra" priority="0" />
+      <Item value="Telefono1" priority="1" />
+      <Item value="CodigoMuestra" priority="0" />
+      <Item value="ApellidosNeonato" priority="0" />
+      <Item value="ApellidosMadre" priority="0" />
+      <Item value="DNI" priority="0" />
+      <Item value="idPrueba" priority="0" />
+      <Item value="TestName" priority="0" />
+      <Item value="ConcTexto" priority="0" />
+      <Item value="Unidad" priority="0" />
+      <Item value="FechaRecepcion" priority="0" />
+      <Item value="FechaResultado" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TamiLifeSA.Test">
+      <Item value="reporte`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Write`0" priority="3" />
+      <Item value="Flush`0" priority="0" />
+      <Item value="ContentEncoding" priority="0" />
+      <Item value="Redirect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CustomValidator">
+      <Item value="IsValid" priority="1" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ValidationSummary">
+      <Item value="ShowSummary" priority="1" />
+      <Item value="ShowMessageBox" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ServerValidateEventArgs">
+      <Item value="IsValid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.BoundField">
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_ResultadosArchivo">
+      <Item value="TestName" priority="2" />
+      <Item value="FechaMedicion" priority="3" />
+      <Item value="rdcDeterminationLevel" priority="0" />
+      <Item value="AssayLineNumber" priority="0" />
+      <Item value="ApellidosNeonato" priority="0" />
+      <Item value="CodigoInternoLab" priority="1" />
+      <Item value="ConcTexto" priority="0" />
+      <Item value="Publicado" priority="0" />
+      <Item value="CodigoMuestra" priority="0" />
+      <Item value="DNI" priority="0" />
+      <Item value="FechaNacimiento" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList`1" priority="4" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="Unicode" priority="1" />
+      <Item value="UTF8" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TamiLifeSA.Resultados.ResultadosAlteradosArchivo+resul">
+      <Item value="FechaResultado" priority="1" />
+      <Item value="Prueba" priority="0" />
+      <Item value="CodigoCorrelativo" priority="1" />
+      <Item value="ApellidosNeonato" priority="0" />
+      <Item value="FechaToma" priority="0" />
+      <Item value="Resultado" priority="0" />
+      <Item value="Peso" priority="0" />
+      <Item value="EdadGestacional" priority="0" />
+      <Item value="Establecimiento" priority="0" />
+      <Item value="Telefono" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TamiLifeSA.FuncionesComunes">
+      <Item value="reporteResultadosxEstablecimientoPDF`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Columns" priority="1" />
+      <Item value="Rows" priority="10" />
+      <Item value="AsEnumerable`0" priority="0" />
+      <Item value="NewRow`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="Indexer" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.EnumerableRowCollection`1">
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="3" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iTextSharp.text.BaseColor">
+      <Item value="RED" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Security.MembershipUser">
+      <Item value="UnlockUser`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRowCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DA.EstablecimientoDA">
+      <Item value="ObtenerCodigoCorrelativoEnvio`0" priority="0" />
+      <Item value="IncrementarCodigoCorrelativoEnvio`0" priority="0" />
+      <Item value="ObtenerEstablecimiento`0" priority="0" />
+      <Item value="ActualizarEstablecimiento`0" priority="0" />
+      <Item value="ObtenerVistaEstablecimiento`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_Establecimiento">
+      <Item value="UltimoCodCorrEnvio" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AjaxControlToolkit.ModalPopupExtender">
+      <Item value="Hide`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iTextSharp.text.Element">
+      <Item value="ALIGN_LEFT" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.ISingleResult`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BC.PruebaBC">
+      <Item value="ObtenerPruebas`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Prueba">
+      <Item value="NombreCorto" priority="1" />
+      <Item value="Nombre" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.spResultadosHistoricosNeonatoResult">
+      <Item value="CodigoMuestra" priority="0" />
+      <Item value="FechaMedicion" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TamiLifeSA.Reportes">
+      <Item value="ReporteHistoricoResultados`0" priority="0" />
+      <Item value="ReporteResultadosNeonato`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="CompareTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Wheat" priority="0" />
+      <Item value="White" priority="0" />
+      <Item value="Red" priority="2" />
+      <Item value="Green" priority="2" />
+      <Item value="Black" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableCell">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FontInfo">
+      <Item value="Bold" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_ResultadosMuestra">
+      <Item value="idMuestra" priority="0" />
+      <Item value="idNeonato" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BE.Vista_MuestraResultado">
+      <Item value="idNeonato" priority="0" />
+      <Item value="EstablecimientoNombre" priority="0" />
+      <Item value="Estado" priority="0" />
+      <Item value="TestName" priority="0" />
+      <Item value="NombrePrueba" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
