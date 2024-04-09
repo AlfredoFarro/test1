@@ -79,3 +79,12 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\bin
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BC\obj\Debug\BC.pdb
+C:\Users\farma\Desktop\test1\BC\bin\Debug\BC.dll
+C:\Users\farma\Desktop\test1\BC\bin\Debug\BC.pdb
+C:\Users\farma\Desktop\test1\BC\bin\Debug\BE.dll
+C:\Users\farma\Desktop\test1\BC\bin\Debug\DA.dll
+C:\Users\farma\Desktop\test1\BC\bin\Debug\BE.pdb
+C:\Users\farma\Desktop\test1\BC\bin\Debug\DA.pdb
+C:\Users\farma\Desktop\test1\BC\obj\Debug\BC.csprojResolveAssemblyReference.cache
+C:\Users\farma\Desktop\test1\BC\obj\Debug\BC.dll
+C:\Users\farma\Desktop\test1\BC\obj\Debug\BC.pdb

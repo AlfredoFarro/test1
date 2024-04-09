@@ -88,3 +88,11 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\DA\bin
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\DA\obj\Debug\DA.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\DA\obj\Debug\DA.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\DA\obj\Debug\DA.pdb
+C:\Users\farma\Desktop\test1\DA\bin\Debug\DA.dll.config
+C:\Users\farma\Desktop\test1\DA\bin\Debug\DA.dll
+C:\Users\farma\Desktop\test1\DA\bin\Debug\DA.pdb
+C:\Users\farma\Desktop\test1\DA\bin\Debug\BE.dll
+C:\Users\farma\Desktop\test1\DA\bin\Debug\BE.pdb
+C:\Users\farma\Desktop\test1\DA\obj\Debug\DA.csprojResolveAssemblyReference.cache
+C:\Users\farma\Desktop\test1\DA\obj\Debug\DA.dll
+C:\Users\farma\Desktop\test1\DA\obj\Debug\DA.pdb

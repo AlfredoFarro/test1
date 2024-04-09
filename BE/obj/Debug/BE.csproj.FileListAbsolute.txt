@@ -50,3 +50,9 @@ C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BE\bin
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BE\obj\Debug\BE.dll
 C:\Users\Administrator\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BE\obj\Debug\BE.pdb
 C:\Users\cesar\Documents\Visual Studio 2010\Projects\TamiLifeINMP\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\farma\Desktop\test1\BE\bin\Debug\BE.dll.config
+C:\Users\farma\Desktop\test1\BE\bin\Debug\BE.dll
+C:\Users\farma\Desktop\test1\BE\bin\Debug\BE.pdb
+C:\Users\farma\Desktop\test1\BE\obj\Debug\BE.csprojResolveAssemblyReference.cache
+C:\Users\farma\Desktop\test1\BE\obj\Debug\BE.dll
+C:\Users\farma\Desktop\test1\BE\obj\Debug\BE.pdb

@@ -125,15 +125,21 @@
     <Content Include="Images\separacion.jpg" />
     <Content Include="Images\usuario.png" />
     <Content Include="Muestras\AdministrarMuestras.aspx" />
+    <Content Include="Muestras\AdministrarMuestrasNewCss.aspx" />
     <Content Include="Muestras\AdministrarMuestrasRechazadas.aspx" />
     <Content Include="Muestras\EditarMuestra.aspx" />
     <Content Include="Muestras\RegistrarMuestra.aspx" />
+    <Content Include="Muestras\RegistrarMuestraNewCss.aspx" />
     <Content Include="Publicacion\AdministrarMuestrasExportadas.aspx" />
+    <Content Include="Publicacion\AdministrarMuestrasExportadasNewCss.aspx" />
     <Content Include="Publicacion\AdministrarPublicacion.aspx" />
     <Content Include="Publicacion\AdministrarPublicacionINMP.aspx" />
+    <Content Include="Publicacion\AdministrarPublicaciónNewCss.aspx" />
     <Content Include="Publicacion\AdministrarResultadosPublicados.aspx" />
+    <Content Include="Publicacion\AdministrarResultadosPublicadosNewCss.aspx" />
     <Content Include="Publicacion\PublicarResultados.aspx" />
     <Content Include="Publicacion\PublicarResultadosINMP.aspx" />
+    <Content Include="Publicacion\PublicarResultadosNewCss.aspx" />
     <Content Include="Publicacion\WebFormPrueba.aspx" />
     <Content Include="Resultados\BuscarResultado.aspx" />
     <Content Include="Resultados\ResultadosEstablecimiento.aspx" />
@@ -267,6 +273,13 @@
     <Compile Include="Establecimientos\RegistrarEstablecimiento.aspx.designer.cs">
       <DependentUpon>RegistrarEstablecimiento.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Muestras\AdministrarMuestrasNewCss.aspx.cs">
+      <DependentUpon>AdministrarMuestrasNewCss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muestras\AdministrarMuestrasNewCss.aspx.designer.cs">
+      <DependentUpon>AdministrarMuestrasNewCss.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Muestras\AdministrarMuestrasRechazadas.aspx.cs">
       <DependentUpon>AdministrarMuestrasRechazadas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -274,12 +287,26 @@
     <Compile Include="Muestras\AdministrarMuestrasRechazadas.aspx.designer.cs">
       <DependentUpon>AdministrarMuestrasRechazadas.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Muestras\RegistrarMuestraNewCss.aspx.cs">
+      <DependentUpon>RegistrarMuestraNewCss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Muestras\RegistrarMuestraNewCss.aspx.designer.cs">
+      <DependentUpon>RegistrarMuestraNewCss.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Publicacion\AdministrarMuestrasExportadas.aspx.cs">
       <DependentUpon>AdministrarMuestrasExportadas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Publicacion\AdministrarMuestrasExportadas.aspx.designer.cs">
       <DependentUpon>AdministrarMuestrasExportadas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarMuestrasExportadasNewCss.aspx.cs">
+      <DependentUpon>AdministrarMuestrasExportadasNewCss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarMuestrasExportadasNewCss.aspx.designer.cs">
+      <DependentUpon>AdministrarMuestrasExportadasNewCss.aspx</DependentUpon>
     </Compile>
     <Compile Include="Publicacion\AdministrarPublicacion.aspx.cs">
       <DependentUpon>AdministrarPublicacion.aspx</DependentUpon>
@@ -295,12 +322,26 @@
     <Compile Include="Publicacion\AdministrarPublicacionINMP.aspx.designer.cs">
       <DependentUpon>AdministrarPublicacionINMP.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Publicacion\AdministrarPublicaciónNewCss.aspx.cs">
+      <DependentUpon>AdministrarPublicaciónNewCss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarPublicaciónNewCss.aspx.designer.cs">
+      <DependentUpon>AdministrarPublicaciónNewCss.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Publicacion\AdministrarResultadosPublicados.aspx.cs">
       <DependentUpon>AdministrarResultadosPublicados.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Publicacion\AdministrarResultadosPublicados.aspx.designer.cs">
       <DependentUpon>AdministrarResultadosPublicados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarResultadosPublicadosNewCss.aspx.cs">
+      <DependentUpon>AdministrarResultadosPublicadosNewCss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\AdministrarResultadosPublicadosNewCss.aspx.designer.cs">
+      <DependentUpon>AdministrarResultadosPublicadosNewCss.aspx</DependentUpon>
     </Compile>
     <Compile Include="Publicacion\PublicarResultados.aspx.cs">
       <DependentUpon>PublicarResultados.aspx</DependentUpon>
@@ -315,6 +356,13 @@
     </Compile>
     <Compile Include="Publicacion\PublicarResultadosINMP.aspx.designer.cs">
       <DependentUpon>PublicarResultadosINMP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Publicacion\PublicarResultadosNewCss.aspx.cs">
+      <DependentUpon>PublicarResultadosNewCss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Publicacion\PublicarResultadosNewCss.aspx.designer.cs">
+      <DependentUpon>PublicarResultadosNewCss.aspx</DependentUpon>
     </Compile>
     <Compile Include="Publicacion\WebFormPrueba.aspx.cs">
       <DependentUpon>WebFormPrueba.aspx</DependentUpon>

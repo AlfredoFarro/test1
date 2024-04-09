@@ -660,3 +660,606 @@ field-divided{
 {
     padding-left: 10px;
 }
+/*
+----------------
+*/
+
+.filtro-container {
+    
+}
+
+.subtitulo {
+    color: #FFFFFF;
+    /*background-color: #99CCFF;*/
+    background-color: #5AADDD;
+    font-weight: bold;
+    font-size: small;
+    padding-left:10px;    
+    border-color: #5AADDD;
+}
+.filtro1 {
+    width: 100%;
+    margin: 10px 10px 40px 10px;
+}
+
+.filtro1 .etiqueta {
+    float: left;
+    width: 150px;
+    margin-right: 10px; 
+    padding-left: 10px;
+}
+
+.filtro1 .campo {
+    float: left;
+    width: auto;
+}
+
+
+.filtro 
+{
+    width: 100%;
+    margin-right:10px;
+    margin-left:10px;
+}
+.filtro .etiqueta {
+    float: left;
+    width: 150px;
+    margin-right: 10px; 
+    padding-left: 10px;
+}
+.filtro .campo {
+    float: left;
+    width: auto;
+}
+
+.botones 
+{
+    clear: both;
+    text-align: center; 
+    margin: 10px;
+}
+
+
+.filaAd 
+{
+    margin-top:10px;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+
+.columnaEtiquetasAd {
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.inputContainer {
+   overflow: hidden;
+}
+
+.inputContainerbtn
+{
+   margin-left:285px;
+}
+
+.BotonAccionAd {
+    border-style: none;
+    FONT-SIZE: 8pt;
+    FONT-WEIGHT: bold; 
+    COLOR: white; 
+    BACKGROUND-COLOR: #B6B6B6;
+    width: 80px;
+    height:25px;
+    text-align: center; 
+}
+
+.row {
+    overflow: hidden;
+    clear:both;
+    margin-top:10px;
+}
+
+.columnaEtiquetas {
+    float: left;
+    width: 150px;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.rowbtn 
+{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:170px;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.container1 {
+    float: left;
+}
+
+.container2 {
+    float: right;
+}
+.filan {
+  width: 100%;
+  margin-bottom: 10px;
+  clear:both;
+}
+
+.columnaEtiquetasn {
+  width: 45%;
+  float: left;
+  padding: 0 10px;
+}
+
+.lbln {
+  margin-left: 10px;
+  display: inline-block;
+}
+.fila6 {
+  width: 52%;
+  padding-left:430px;
+  margin: 10px;
+  clear:both;
+}
+.tablan
+{
+}
+
+.tablang
+{
+   margin-top: 10px; 
+}
+.parte1
+{
+    margin:10px;
+    margin-top:0px;
+}
+.parte2
+{
+    margin:10px;
+}
+.parte3
+{
+    margin:10px;
+    margin-top:0px;
+}
+.parte4
+{
+    margin:10px;
+}
+.parte5
+{
+    margin:10px;
+}
+.columnaEtiquetasnu 
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin-top:10px;
+}
+.columnaEtiquetasnudob 
+{
+    width: 100%;
+    margin-top:10px;
+    vertical-align: middle;
+}
+
+
+.txtdnin {
+    display: inline-block;
+    margin-left: 63.5px;
+    vertical-align: middle;
+}
+.tipoEstn
+{
+    display: inline-block;
+    margin-left: 21px;
+    vertical-align: middle;
+}
+.txtApen
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 58px;
+    vertical-align: middle;
+}
+.txtNomMadn
+{
+    display: inline-block;
+    margin-left: 89px;
+    vertical-align: middle;
+}
+.txtdirecMadrn
+{
+    display: inline-block;
+    margin-left: 57.5px;
+    vertical-align: middle;
+}
+
+.txtTelefn
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 62px;
+    vertical-align: middle;
+}
+.txtEdadMadn
+{
+    display: inline-block;
+    margin-left: 113.5px;
+    vertical-align: middle;
+}
+.TituloCombon 
+{
+    overflow:hidden;
+    vertical-align: middle;
+    width: auto;
+    margin-bottom: 5px;
+}
+.inputVisible
+{
+    display:inline-block;
+    margin-bottom: 5px !important;
+}
+.inputInvisible
+{
+    display:none;
+    margin-bottom: 0px !important;
+}
+.TituloCombon select {
+    margin-left:5px;
+}
+/*
+----------------
+*/
+.txtEdadGestn
+{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.txtApeNeon
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 57px;
+    vertical-align: middle;
+}
+.txtNomNeon
+{
+    display: inline-block;
+    margin-left: 90px;
+    vertical-align: middle;
+}
+
+.txtFechaNacn
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 31px;
+    vertical-align: middle;
+}
+
+.txtHoraNacn
+{
+    display: inline-block;
+    margin-left: 28px;
+    vertical-align: middle;
+}
+.txtRadioBtFen
+{
+    width:41.3%;
+    display: inline-block;
+    margin-left: 78px;
+    vertical-align: middle;
+}
+.txtRadioBtTrann
+{
+    display: inline-block;
+    margin-left: 63px;
+    vertical-align: middle;
+}
+
+.txtPeson
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 68px;
+    vertical-align: middle;
+}
+.txtTallan
+{
+    display: inline-block;
+    margin-left: 93px;
+    vertical-align: middle;
+}
+.txtCodMuen
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.txtMuestn
+{
+    display: inline-block;
+    margin-left: 78.5px;
+    vertical-align: middle;
+}
+.txtFecTomn
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: middle;
+}
+.txtHoraTon
+{
+    display: inline-block;
+    margin-left: 63px;
+    vertical-align: middle;
+}
+.txtTomPon
+{
+    width:40.9%;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: middle;
+}
+.txtNotn
+{
+    display: inline-block;
+    margin-left: 108.5px;
+    vertical-align: middle;
+}
+.txtCodCorrn
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.txtFechaRecn
+{
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+/*
+----------------
+*/
+.tableall
+{
+    margin:10px;
+    margin-top:0px;
+}
+.ddlTipoEstAdm
+{
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+.txtApeNeoAdm
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.ddlEstAdm
+{
+    display: inline-block;
+    margin-left: 60px;
+    vertical-align: middle;
+}
+.txtApMadrAdm
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 22.5px;
+    vertical-align: middle;
+}
+.txtdniAdm
+{
+    display: inline-block;
+    margin-left: 70px;
+    vertical-align: middle;
+}
+.txtFechAdm
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 18px;
+    vertical-align: middle;
+}
+.txtCodAdm
+{
+    display: inline-block;
+    margin-left: 34.5px;
+    vertical-align: middle;
+}
+.txtFechTomAdm
+{
+    width:40.8%;
+    display: inline-block;
+    margin-left: 35px;
+    vertical-align: middle;
+}
+.txtCodCorrAdm
+{
+    display: inline-block;
+    margin-left: 27px;
+    vertical-align: middle;
+}
+.btnBusAdm
+{
+    display: inline-block;
+    margin-left: 125px;
+    vertical-align: middle;
+    margin-bottom:10px;
+}
+/*
+----------------
+*/
+
+.lblCodMueAdm
+{
+    display: inline-block;
+    margin-left: 30px;
+    
+
+}
+.lblEstAdm
+{
+    display: inline-block;
+    margin-left: 47px;
+   
+
+}
+.lblCodCorAdm
+{
+    width:30.8%;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.lblFecRecAdm
+{
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+.lblMadreAdm
+{
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+.lblDireAdm
+{
+    display: inline-block;
+    margin-left: 10px;
+   
+}
+.lblDniAdm
+{
+    width:30.8%;
+    display: inline-block;
+    margin-left: 115px;
+   
+}
+.lblTeleAdm
+{
+    display: inline-block;
+    margin-left: 1px;
+   
+}
+.lblEdMadAdm
+{
+    display: inline-block;
+    margin-left: 108px;
+    
+}
+.lblNeoAdm
+{
+    display: inline-block;
+    margin-left: 88px;
+    
+}
+.lblFecNacAdm
+{
+    width:30.8%;
+    display: inline-block;
+    margin-left: 17px;
+    
+}
+.lblHorNacAdm
+{
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+.lblEdGesAdm
+{
+    width:30.9%;
+    display: inline-block;
+    margin-left: 39px;
+    
+}
+.lblSexoAdm
+{
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+.lblPesAdm
+{
+    width:30.9%;
+    display: inline-block;
+    margin-left: 92px;
+    
+}
+.lblTallaAdm
+{
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+.lblNmuesAdm
+{
+    width:31.2%;
+    display: inline-block;
+    margin-left: 71px;
+    
+}
+.lblTransAdm
+{
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+.lblFecTomAdm
+{
+    width:31%;
+    display: inline-block;
+    margin-left: 51px;
+    
+}
+.lblHorTomAdm
+{
+    display: inline-block;
+    margin-left: 1px;
+    
+}
+.lblTomPoAdm
+{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.lblNotAdm
+{
+    display: inline-block;
+    margin-left: 102px;
+    
+    
+}
+
+@media screen and (max-width: 600px) 
+{
+    .tableall
+    {
+        
+        background-color:#000;
+    }      
+}

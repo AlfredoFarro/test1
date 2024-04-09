@@ -9,7 +9,7 @@ using BE;
 
 namespace TamiLifeSA.Publicacion
 {
-    public partial class AdministrarPublicacion : System.Web.UI.Page
+    public partial class AdministrarPublicaciónNewCss : System.Web.UI.Page
     {
         //Instancias de Negocio --------------------------------------------------
         private readonly PruebaBC pruebaBC = new PruebaBC();
@@ -52,7 +52,7 @@ namespace TamiLifeSA.Publicacion
                 CargarPruebas();
                 CargarEquipos();
                 CargarGrilla();
-                
+
             }
         }
 
@@ -80,7 +80,7 @@ namespace TamiLifeSA.Publicacion
         //private void CargarDigitadores()
         //{
         //    ddlDigitador.DataSource = usuarioBC.ObtenerUsuariosDigitadores();
-            
+
         //    ddlDigitador.DataTextField = "NombreUsuario";
         //    ddlDigitador.DataValueField = "NombreUsuario";
         //    ddlDigitador.DataBind();
@@ -110,15 +110,15 @@ namespace TamiLifeSA.Publicacion
             var item = new ListItem("--TODOS--", "0");
             ddlEquipo.Items.Insert(0, item);
             ddlEquipo.SelectedValue = "0";
-            
+
             //ddlPrueba.SelectedValue = DateTime.Today.Month.ToString();
         }
-        
+
         protected void dgvEnsayos_RowCommand(object sender, GridViewCommandEventArgs e)
         {
             if (e.CommandName.CompareTo("revisar") == 0)
             {
-                Response.Redirect("~/Publicacion/PublicarResultadosNewCss.aspx?ID=" + e.CommandArgument);
+                Response.Redirect("~/Publicacion/PublicarResultados.aspx?ID=" + e.CommandArgument);
             }
             if (e.CommandName.CompareTo("reporte") == 0)
             {
@@ -136,7 +136,7 @@ namespace TamiLifeSA.Publicacion
         {
             int EnsayoId = int.Parse(Id);
             var ensayo = ensayoBC.ObtenerEnsayoId(EnsayoId);
-            var listaResultadosGSP = resultadoBC.ObtenerListaResultadosGSP(EnsayoId); 
+            var listaResultadosGSP = resultadoBC.ObtenerListaResultadosGSP(EnsayoId);
 
             byte[] bytes = rep.ReporteResultadosGSP(ensayo, listaResultadosGSP);
 
@@ -156,7 +156,5 @@ namespace TamiLifeSA.Publicacion
         {
             muestraBC.ExportarMuestrasINMP();
         }
-
-       
     }
 }
