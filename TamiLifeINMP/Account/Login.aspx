@@ -56,5 +56,11 @@
             </td>
         </tr>
     </table>--%>
+    <%--      </td>
+            <td>
+                <img src="../Images/LOGO%20TAMIZAJE%20NEONATAL%20CON%20ESSALUD.png" width="300px" />
+            </td>
+        </tr>
+    </table>as--%>
 </asp:Content>
 
